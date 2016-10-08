@@ -21,10 +21,10 @@ app.window.setWindowIcon(QtGui.QIcon(BASE_DIR + "/static/img/icon.png"))
 # Binding of back-end functionalities with GUI
 
 # Import back-end functionalities
-from html_to_python import ClassName
+from html_to_python import Cryptonite
 
 # Register back-end functionalities
-app.bind(ClassName())
+app.bind(Cryptonite())
 
 
 # Instructions for running application
