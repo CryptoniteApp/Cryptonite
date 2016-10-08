@@ -11,6 +11,10 @@
   border-bottom: 1px solid #eee;
 }
 
+body {
+  font-family: Roboto;
+}
+
 /*
  * Top navigation
  * Hide default border to remove 1px line.
@@ -83,13 +87,18 @@
   margin-right: auto;
   width: 90%;
   margin-bottom: 20px;
-}
-
-.form-control {
-  background-color: #242c33;
   border-radius:33px;
   -moz-border-radius:33px;
   -webkit-border-radius:33px;
+}
+
+.form-control {
+  /*background-color: #242c33;*/
+  border-radius:33px;
+  -moz-border-radius:33px;
+  -webkit-border-radius:33px;
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
 
 .table-condensed>thead>tr>th, .table-condensed>tbody>tr>th, .table-condensed>tfoot>tr>th, .table-condensed>thead>tr>td, .table-condensed>tbody>tr>td, .table-condensed>tfoot>tr>td{
@@ -115,6 +124,10 @@
 }
 .main .page-header {
   margin-top: 0;
+}
+
+.new {
+  padding-left: 18%
 }
 
 
