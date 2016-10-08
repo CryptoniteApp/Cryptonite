@@ -87,6 +87,13 @@
   -webkit-border-radius:33px !important;
 }
 
+.table-condensed>thead>tr>th, .table-condensed>tbody>tr>th, .table-condensed>tfoot>tr>th, .table-condensed>thead>tr>td, .table-condensed>tbody>tr>td, .table-condensed>tfoot>tr>td{
+  padding: 0px;
+}
+
+.table-hover tbody tr:hover td, .table-hover tbody tr:hover th{
+  background-color: #62ed5b;
+}
 
 /*
  * Main content
@@ -97,8 +104,8 @@
 }
 @media (min-width: 768px) {
   .main {
-    padding-right: 40px;
-    padding-left: 40px;
+    padding-right: 10px;
+    padding-left: 10px;
   }
 }
 .main .page-header {
