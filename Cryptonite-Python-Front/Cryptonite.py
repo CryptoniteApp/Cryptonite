@@ -7,7 +7,7 @@ BASE_DIR = os.path.abspath(os.path.dirname(__file__))
 
 
 # GUI initializations
-app = htmlPy.AppGUI(title=u"Application", maximized=True, plugins=True)
+app = htmlPy.AppGUI(title=u"Cryptonite", maximized=True, plugins=True)
 
 
 # GUI configurations

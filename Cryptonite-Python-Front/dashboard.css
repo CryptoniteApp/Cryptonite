@@ -45,7 +45,7 @@
 
 /* Sidebar navigation */
 .nav-sidebar {
-  background-color: #3c4a55;
+  background-color: #3c4a55 ;
   margin-right: -21px; /* 20px padding + 1px border */
   margin-bottom: 20px;
   margin-left: -20px;
@@ -72,6 +72,11 @@
   padding-top: 10%;
 }
 
+.sidebar > a.active{
+  color: #fff;
+  background-color: #242c33 !important;
+}
+
 .nav-searchbar {
   display: block;
   margin-left: auto;
@@ -82,9 +87,9 @@
 
 .form-control {
   background-color: #242c33;
-  border-radius:33px !important;
-  -moz-border-radius:33px !important;
-  -webkit-border-radius:33px !important;
+  border-radius:33px;
+  -moz-border-radius:33px;
+  -webkit-border-radius:33px;
 }
 
 .table-condensed>thead>tr>th, .table-condensed>tbody>tr>th, .table-condensed>tfoot>tr>th, .table-condensed>thead>tr>td, .table-condensed>tbody>tr>td, .table-condensed>tfoot>tr>td{
