@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>SchemeUserState</key>
+	<dict>
+		<key>CryptoSwift.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Pods-Cryptonite-iOS.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Pods-Cryptonite-iOSTests.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Pods-Cryptonite-iOSUITests.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>1D83B43EE1D78C406AE8C9CF25320F90</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>30943B25F0DEC51D0012EB94E0670356</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>543735C3C6471A3C04B168B055EED756</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>D968119FF3A7ED1EA6227D7A03BF7520</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+	</dict>
+</dict>
+</plist>

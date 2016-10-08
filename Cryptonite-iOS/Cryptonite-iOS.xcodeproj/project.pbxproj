@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		27B71551530F4E753B4AD50F /* Pods_Cryptonite_iOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D218DD6070A8057284C1D88B /* Pods_Cryptonite_iOS.framework */; };
+		494BE5F01DA8C0E20015B2E0 /* AuthColorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 494BE5EF1DA8C0E20015B2E0 /* AuthColorViewController.swift */; };
+		494BE5F21DA8C1390015B2E0 /* JunkCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 494BE5F11DA8C1390015B2E0 /* JunkCollectionViewController.swift */; };
+		494BE5F41DA8E2FA0015B2E0 /* AuthPasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 494BE5F31DA8E2FA0015B2E0 /* AuthPasswordViewController.swift */; };
 		497CBAFD1DA89DC100A63A50 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 497CBAFC1DA89DC100A63A50 /* AppDelegate.swift */; };
 		497CBAFF1DA89DC100A63A50 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 497CBAFE1DA89DC100A63A50 /* ViewController.swift */; };
 		497CBB021DA89DC100A63A50 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 497CBB001DA89DC100A63A50 /* Main.storyboard */; };
@@ -14,6 +18,9 @@
 		497CBB071DA89DC100A63A50 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 497CBB051DA89DC100A63A50 /* LaunchScreen.storyboard */; };
 		497CBB121DA89DC100A63A50 /* Cryptonite_iOSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 497CBB111DA89DC100A63A50 /* Cryptonite_iOSTests.swift */; };
 		497CBB1D1DA89DC200A63A50 /* Cryptonite_iOSUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 497CBB1C1DA89DC200A63A50 /* Cryptonite_iOSUITests.swift */; };
+		497CBB2B1DA8A35B00A63A50 /* AESHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 497CBB2A1DA8A35B00A63A50 /* AESHelper.swift */; };
+		D6DF86295C12911ECF95982A /* Pods_Cryptonite_iOSTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 32158CE146B478904AD60E16 /* Pods_Cryptonite_iOSTests.framework */; };
+		F07D504EED7A96146A57ECA9 /* Pods_Cryptonite_iOSUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 05EEF8036F04191F14F358F6 /* Pods_Cryptonite_iOSUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +41,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		05EEF8036F04191F14F358F6 /* Pods_Cryptonite_iOSUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Cryptonite_iOSUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1C30DB549EA5068A8A8F7FF5 /* Pods-Cryptonite-iOSUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Cryptonite-iOSUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Cryptonite-iOSUITests/Pods-Cryptonite-iOSUITests.release.xcconfig"; sourceTree = "<group>"; };
+		28F630C15EB0232843252925 /* Pods-Cryptonite-iOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Cryptonite-iOS.release.xcconfig"; path = "Pods/Target Support Files/Pods-Cryptonite-iOS/Pods-Cryptonite-iOS.release.xcconfig"; sourceTree = "<group>"; };
+		32158CE146B478904AD60E16 /* Pods_Cryptonite_iOSTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Cryptonite_iOSTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		494BE5EF1DA8C0E20015B2E0 /* AuthColorViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AuthColorViewController.swift; sourceTree = "<group>"; };
+		494BE5F11DA8C1390015B2E0 /* JunkCollectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JunkCollectionViewController.swift; sourceTree = "<group>"; };
+		494BE5F31DA8E2FA0015B2E0 /* AuthPasswordViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AuthPasswordViewController.swift; sourceTree = "<group>"; };
 		497CBAF91DA89DC100A63A50 /* Cryptonite-iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Cryptonite-iOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		497CBAFC1DA89DC100A63A50 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		497CBAFE1DA89DC100A63A50 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +61,12 @@
 		497CBB181DA89DC100A63A50 /* Cryptonite-iOSUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Cryptonite-iOSUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		497CBB1C1DA89DC200A63A50 /* Cryptonite_iOSUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cryptonite_iOSUITests.swift; sourceTree = "<group>"; };
 		497CBB1E1DA89DC200A63A50 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		497CBB2A1DA8A35B00A63A50 /* AESHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AESHelper.swift; sourceTree = "<group>"; };
+		4C148F56DE736DDEFC5ADA2E /* Pods-Cryptonite-iOSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Cryptonite-iOSTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Cryptonite-iOSTests/Pods-Cryptonite-iOSTests.release.xcconfig"; sourceTree = "<group>"; };
+		5776C0CE24D739FC3A2EF179 /* Pods-Cryptonite-iOSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Cryptonite-iOSTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Cryptonite-iOSTests/Pods-Cryptonite-iOSTests.debug.xcconfig"; sourceTree = "<group>"; };
+		C52229A33AEA196830C0F478 /* Pods-Cryptonite-iOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Cryptonite-iOS.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Cryptonite-iOS/Pods-Cryptonite-iOS.debug.xcconfig"; sourceTree = "<group>"; };
+		D218DD6070A8057284C1D88B /* Pods_Cryptonite_iOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Cryptonite_iOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DC2C51DFC74DB052E296EEED /* Pods-Cryptonite-iOSUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Cryptonite-iOSUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Cryptonite-iOSUITests/Pods-Cryptonite-iOSUITests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +74,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				27B71551530F4E753B4AD50F /* Pods_Cryptonite_iOS.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +82,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D6DF86295C12911ECF95982A /* Pods_Cryptonite_iOSTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,12 +90,52 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F07D504EED7A96146A57ECA9 /* Pods_Cryptonite_iOSUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		469905D0AEE4BAC234D4FC49 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C52229A33AEA196830C0F478 /* Pods-Cryptonite-iOS.debug.xcconfig */,
+				28F630C15EB0232843252925 /* Pods-Cryptonite-iOS.release.xcconfig */,
+				5776C0CE24D739FC3A2EF179 /* Pods-Cryptonite-iOSTests.debug.xcconfig */,
+				4C148F56DE736DDEFC5ADA2E /* Pods-Cryptonite-iOSTests.release.xcconfig */,
+				DC2C51DFC74DB052E296EEED /* Pods-Cryptonite-iOSUITests.debug.xcconfig */,
+				1C30DB549EA5068A8A8F7FF5 /* Pods-Cryptonite-iOSUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		494BE5EC1DA8C05F0015B2E0 /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				497CBAFE1DA89DC100A63A50 /* ViewController.swift */,
+				494BE5EF1DA8C0E20015B2E0 /* AuthColorViewController.swift */,
+				494BE5F31DA8E2FA0015B2E0 /* AuthPasswordViewController.swift */,
+				494BE5F11DA8C1390015B2E0 /* JunkCollectionViewController.swift */,
+			);
+			name = "View Controllers";
+			sourceTree = "<group>";
+		};
+		494BE5F51DA8E30B0015B2E0 /* Data Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "Data Model";
+			sourceTree = "<group>";
+		};
+		494BE5F61DA8E3110015B2E0 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				497CBB2A1DA8A35B00A63A50 /* AESHelper.swift */,
+			);
+			name = Helpers;
+			sourceTree = "<group>";
+		};
 		497CBAF01DA89DC100A63A50 = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +143,8 @@
 				497CBB101DA89DC100A63A50 /* Cryptonite-iOSTests */,
 				497CBB1B1DA89DC100A63A50 /* Cryptonite-iOSUITests */,
 				497CBAFA1DA89DC100A63A50 /* Products */,
+				469905D0AEE4BAC234D4FC49 /* Pods */,
+				51779E47F7D00B6DE129B1A1 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -98,7 +162,9 @@
 			isa = PBXGroup;
 			children = (
 				497CBAFC1DA89DC100A63A50 /* AppDelegate.swift */,
-				497CBAFE1DA89DC100A63A50 /* ViewController.swift */,
+				494BE5F61DA8E3110015B2E0 /* Helpers */,
+				494BE5F51DA8E30B0015B2E0 /* Data Model */,
+				494BE5EC1DA8C05F0015B2E0 /* View Controllers */,
 				497CBB001DA89DC100A63A50 /* Main.storyboard */,
 				497CBB031DA89DC100A63A50 /* Assets.xcassets */,
 				497CBB051DA89DC100A63A50 /* LaunchScreen.storyboard */,
@@ -125,6 +191,16 @@
 			path = "Cryptonite-iOSUITests";
 			sourceTree = "<group>";
 		};
+		51779E47F7D00B6DE129B1A1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D218DD6070A8057284C1D88B /* Pods_Cryptonite_iOS.framework */,
+				32158CE146B478904AD60E16 /* Pods_Cryptonite_iOSTests.framework */,
+				05EEF8036F04191F14F358F6 /* Pods_Cryptonite_iOSUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +208,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 497CBB211DA89DC200A63A50 /* Build configuration list for PBXNativeTarget "Cryptonite-iOS" */;
 			buildPhases = (
+				8CEF5783F3CAA68BD9E45254 /* [CP] Check Pods Manifest.lock */,
 				497CBAF51DA89DC100A63A50 /* Sources */,
 				497CBAF61DA89DC100A63A50 /* Frameworks */,
 				497CBAF71DA89DC100A63A50 /* Resources */,
+				490D6935606635B58121716E /* [CP] Embed Pods Frameworks */,
+				B099A1E3A5525CADFDF73CE3 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -149,9 +228,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 497CBB241DA89DC200A63A50 /* Build configuration list for PBXNativeTarget "Cryptonite-iOSTests" */;
 			buildPhases = (
+				5D01D2DB6E0F3FCFA1475E6D /* [CP] Check Pods Manifest.lock */,
 				497CBB091DA89DC100A63A50 /* Sources */,
 				497CBB0A1DA89DC100A63A50 /* Frameworks */,
 				497CBB0B1DA89DC100A63A50 /* Resources */,
+				FE9C001874837F1C3E84B967 /* [CP] Embed Pods Frameworks */,
+				01DB7792C630C9AE55F436B2 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -167,9 +249,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 497CBB271DA89DC200A63A50 /* Build configuration list for PBXNativeTarget "Cryptonite-iOSUITests" */;
 			buildPhases = (
+				7D99B86FAC1CD701E397BD57 /* [CP] Check Pods Manifest.lock */,
 				497CBB141DA89DC100A63A50 /* Sources */,
 				497CBB151DA89DC100A63A50 /* Frameworks */,
 				497CBB161DA89DC100A63A50 /* Resources */,
+				0D4473BA94A649C74463D4C4 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -251,13 +335,140 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		01DB7792C630C9AE55F436B2 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Cryptonite-iOSTests/Pods-Cryptonite-iOSTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		0D4473BA94A649C74463D4C4 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Cryptonite-iOSUITests/Pods-Cryptonite-iOSUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		490D6935606635B58121716E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Cryptonite-iOS/Pods-Cryptonite-iOS-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5D01D2DB6E0F3FCFA1475E6D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		7D99B86FAC1CD701E397BD57 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		8CEF5783F3CAA68BD9E45254 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		B099A1E3A5525CADFDF73CE3 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Cryptonite-iOS/Pods-Cryptonite-iOS-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FE9C001874837F1C3E84B967 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Cryptonite-iOSTests/Pods-Cryptonite-iOSTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		497CBAF51DA89DC100A63A50 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				494BE5F01DA8C0E20015B2E0 /* AuthColorViewController.swift in Sources */,
+				494BE5F21DA8C1390015B2E0 /* JunkCollectionViewController.swift in Sources */,
 				497CBAFF1DA89DC100A63A50 /* ViewController.swift in Sources */,
+				497CBB2B1DA8A35B00A63A50 /* AESHelper.swift in Sources */,
 				497CBAFD1DA89DC100A63A50 /* AppDelegate.swift in Sources */,
+				494BE5F41DA8E2FA0015B2E0 /* AuthPasswordViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -399,6 +610,7 @@
 		};
 		497CBB221DA89DC200A63A50 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C52229A33AEA196830C0F478 /* Pods-Cryptonite-iOS.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "Cryptonite-iOS/Info.plist";
@@ -410,6 +622,7 @@
 		};
 		497CBB231DA89DC200A63A50 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 28F630C15EB0232843252925 /* Pods-Cryptonite-iOS.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "Cryptonite-iOS/Info.plist";
@@ -421,6 +634,7 @@
 		};
 		497CBB251DA89DC200A63A50 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5776C0CE24D739FC3A2EF179 /* Pods-Cryptonite-iOSTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = "Cryptonite-iOSTests/Info.plist";
@@ -433,6 +647,7 @@
 		};
 		497CBB261DA89DC200A63A50 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4C148F56DE736DDEFC5ADA2E /* Pods-Cryptonite-iOSTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = "Cryptonite-iOSTests/Info.plist";
@@ -445,6 +660,7 @@
 		};
 		497CBB281DA89DC200A63A50 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DC2C51DFC74DB052E296EEED /* Pods-Cryptonite-iOSUITests.debug.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = "Cryptonite-iOSUITests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -456,6 +672,7 @@
 		};
 		497CBB291DA89DC200A63A50 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1C30DB549EA5068A8A8F7FF5 /* Pods-Cryptonite-iOSUITests.release.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = "Cryptonite-iOSUITests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -484,6 +701,7 @@
 				497CBB231DA89DC200A63A50 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		497CBB241DA89DC200A63A50 /* Build configuration list for PBXNativeTarget "Cryptonite-iOSTests" */ = {
 			isa = XCConfigurationList;
@@ -492,6 +710,7 @@
 				497CBB261DA89DC200A63A50 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		497CBB271DA89DC200A63A50 /* Build configuration list for PBXNativeTarget "Cryptonite-iOSUITests" */ = {
 			isa = XCConfigurationList;
@@ -500,6 +719,7 @@
 				497CBB291DA89DC200A63A50 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
