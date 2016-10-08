@@ -11,6 +11,10 @@
   border-bottom: 1px solid #eee;
 }
 
+body {
+  font-family: Roboto;
+}
+
 /*
  * Top navigation
  * Hide default border to remove 1px line.
@@ -115,6 +119,10 @@
 }
 .main .page-header {
   margin-top: 0;
+}
+
+.new {
+  padding-left: 18%
 }
 
 
