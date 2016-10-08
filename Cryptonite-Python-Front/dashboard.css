@@ -2,12 +2,6 @@
  * Base structure
  */
 
-/* Move down content because we have a fixed navbar that is 50px tall */
-body {
-  padding-top: 50px;
-}
-
-
 /*
  * Global add-ons
  */
@@ -70,19 +64,27 @@ body {
   color: #fff;
   background-color: #242c33;
 }
-.col-sm-3{
+
+.sidebar{
   background-color: #3c4a55;
-  height: 100%;
+  size: 100%;
+  margin-top: -10%;
+  padding-top: 10%;
 }
+
 .nav-searchbar {
-  border-radius:33px !important;
-  -moz-border-radius:33px !important;
-  -webkit-border-radius:33px !important;
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 80%;
+  width: 90%;
   margin-bottom: 20px;
+}
+
+.form-control {
+  background-color: #242c33;
+  border-radius:33px !important;
+  -moz-border-radius:33px !important;
+  -webkit-border-radius:33px !important;
 }
 
 
