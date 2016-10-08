@@ -3,6 +3,29 @@ from Crypto.Cipher import AES
 from Crypto.Hash import SHA256
 import json
 import qrcode
+import socket
+from flask import Flask
+from flask import request
+
+
+app = Flask(__name__)
+
+
+@app.route('/')
+def hello_world():
+    print 'shit nuggets'
+    return 'shit nuggets'
+
+@app.route('/poopass')
+def hello_worlz():
+    print 'poop ass'
+    return 'poop ass'
+
+@app.route('/phonetopc', methods=["GET","POST"])
+def updatePC():
+    incoming = request.data
+    print 'incoming: ',incoming
+    return 'booty'
 
 MODE = AES.MODE_CFB
 BLOCK_SIZE = 16
@@ -33,7 +56,43 @@ def syncComputerToPhone():
     qr.add_data(encrypt(KEY, IV, json.dumps(passInfo)))
     qr.make(fit=True)
 
-    qr.make_image().show()
+    qrimg = qr.make_image()
+    qrimg.show()
+
+
+
+
+def syncPhoneToComputer():
+
+
+    host = get_lan_ip()
+    port = 4200
+
+
+
+    print "", host, ":", port
+
+
+    qr = qrcode.QRCode(
+        version=1,
+        error_correction=qrcode.constants.ERROR_CORRECT_L,
+        box_size=10,
+        border=4,
+    )
+    qr.add_data(""+str(host)+":"+str(port))
+    qr.make(fit=True)
+
+    qrimg = qr.make_image()
+    qrimg.show()
+
+    app.run(host=get_lan_ip(), port=port, debug=False)
+
+def get_lan_ip():
+    s = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
+    s.connect(("gmail.com", 80))
+    ip = str(s.getsockname()[0])
+    s.close()
+    return ip
 
 def genKey(hex, password):
     seed = 0
@@ -107,7 +166,10 @@ def _unpad_string(value):
         value = value[:-1]
     return value
 
+
+
+
 beginSession()
-syncComputerToPhone()
+syncPhoneToComputer()
 endSession()
-#print KEY
+print get_lan_ip()
