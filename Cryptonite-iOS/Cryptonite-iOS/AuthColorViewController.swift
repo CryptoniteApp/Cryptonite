@@ -9,13 +9,20 @@
 import UIKit
 
 class AuthColorViewController: UIViewController, UICollectionViewDelegate, UICollectionViewDataSource {
-
+    
+    @IBOutlet weak var colorCollection: UICollectionView!
+    @IBOutlet weak var placeholders: UIView!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        ProceduralHelper.generateHash("#d40909#1aa72c#d40909#0f1de1#fda115#f617c0", pass: "VisA#tt7")
+        for subview in placeholders.subviews {
+            
+        }
+        
         // Do any additional setup after loading the view.
     }
-
+    
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
@@ -25,23 +32,28 @@ class AuthColorViewController: UIViewController, UICollectionViewDelegate, UICol
     
     func numberOfSectionsInCollectionView(collectionView: UICollectionView) -> Int {
         // #warning Incomplete implementation, return the number of sections
-        return 0
+        return 1
     }
     
     func collectionView(collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
         // #warning Incomplete implementation, return the number of items
-        return 0
+        return 9
     }
     
     func collectionView(collectionView: UICollectionView, cellForItemAtIndexPath indexPath: NSIndexPath) -> UICollectionViewCell {
         let cell = collectionView.dequeueReusableCellWithReuseIdentifier("colorCell", forIndexPath: indexPath)
+        
+        cell.layer.cornerRadius = 43
+        cell.layer.borderWidth = 4
+        cell.layer.borderColor = UIColor(netHex: 0x2980b9).CGColor
         
         // Configure the cell
         
         return cell
     }
     
-    func collectionview
+    
+    
     
     // MARK: UICollectionViewDelegate
     
@@ -73,17 +85,17 @@ class AuthColorViewController: UIViewController, UICollectionViewDelegate, UICol
      
      }
      */
-
     
-
+    
+    
     /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
-        // Get the new view controller using segue.destinationViewController.
-        // Pass the selected object to the new view controller.
-    }
-    */
-
+     // MARK: - Navigation
+     
+     // In a storyboard-based application, you will often want to do a little preparation before navigation
+     override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
+     // Get the new view controller using segue.destinationViewController.
+     // Pass the selected object to the new view controller.
+     }
+     */
+    
 }

@@ -14,9 +14,9 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "4E5EAC28EBD307FDBA43EE3403950D09"
-               BuildableName = "Pods_Cryptonite_iOS.framework"
-               BlueprintName = "Pods-Cryptonite-iOS"
+               BlueprintIdentifier = "BFBCDAE4131049BBA046ED4142B2C051"
+               BuildableName = "QRCodeReader.framework"
+               BlueprintName = "QRCodeReader.swift"
                ReferencedContainer = "container:Pods.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -45,9 +45,9 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "4E5EAC28EBD307FDBA43EE3403950D09"
-            BuildableName = "Pods_Cryptonite_iOS.framework"
-            BlueprintName = "Pods-Cryptonite-iOS"
+            BlueprintIdentifier = "BFBCDAE4131049BBA046ED4142B2C051"
+            BuildableName = "QRCodeReader.framework"
+            BlueprintName = "QRCodeReader.swift"
             ReferencedContainer = "container:Pods.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
