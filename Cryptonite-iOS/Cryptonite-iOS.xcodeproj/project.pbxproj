@@ -1,0 +1,507 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		497CBAFD1DA89DC100A63A50 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 497CBAFC1DA89DC100A63A50 /* AppDelegate.swift */; };
+		497CBAFF1DA89DC100A63A50 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 497CBAFE1DA89DC100A63A50 /* ViewController.swift */; };
+		497CBB021DA89DC100A63A50 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 497CBB001DA89DC100A63A50 /* Main.storyboard */; };
+		497CBB041DA89DC100A63A50 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 497CBB031DA89DC100A63A50 /* Assets.xcassets */; };
+		497CBB071DA89DC100A63A50 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 497CBB051DA89DC100A63A50 /* LaunchScreen.storyboard */; };
+		497CBB121DA89DC100A63A50 /* Cryptonite_iOSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 497CBB111DA89DC100A63A50 /* Cryptonite_iOSTests.swift */; };
+		497CBB1D1DA89DC200A63A50 /* Cryptonite_iOSUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 497CBB1C1DA89DC200A63A50 /* Cryptonite_iOSUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		497CBB0E1DA89DC100A63A50 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 497CBAF11DA89DC100A63A50 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 497CBAF81DA89DC100A63A50;
+			remoteInfo = "Cryptonite-iOS";
+		};
+		497CBB191DA89DC100A63A50 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 497CBAF11DA89DC100A63A50 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 497CBAF81DA89DC100A63A50;
+			remoteInfo = "Cryptonite-iOS";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		497CBAF91DA89DC100A63A50 /* Cryptonite-iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Cryptonite-iOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		497CBAFC1DA89DC100A63A50 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		497CBAFE1DA89DC100A63A50 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		497CBB011DA89DC100A63A50 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		497CBB031DA89DC100A63A50 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		497CBB061DA89DC100A63A50 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		497CBB081DA89DC100A63A50 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		497CBB0D1DA89DC100A63A50 /* Cryptonite-iOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Cryptonite-iOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		497CBB111DA89DC100A63A50 /* Cryptonite_iOSTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cryptonite_iOSTests.swift; sourceTree = "<group>"; };
+		497CBB131DA89DC100A63A50 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		497CBB181DA89DC100A63A50 /* Cryptonite-iOSUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Cryptonite-iOSUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		497CBB1C1DA89DC200A63A50 /* Cryptonite_iOSUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cryptonite_iOSUITests.swift; sourceTree = "<group>"; };
+		497CBB1E1DA89DC200A63A50 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		497CBAF61DA89DC100A63A50 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		497CBB0A1DA89DC100A63A50 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		497CBB151DA89DC100A63A50 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		497CBAF01DA89DC100A63A50 = {
+			isa = PBXGroup;
+			children = (
+				497CBAFB1DA89DC100A63A50 /* Cryptonite-iOS */,
+				497CBB101DA89DC100A63A50 /* Cryptonite-iOSTests */,
+				497CBB1B1DA89DC100A63A50 /* Cryptonite-iOSUITests */,
+				497CBAFA1DA89DC100A63A50 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		497CBAFA1DA89DC100A63A50 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				497CBAF91DA89DC100A63A50 /* Cryptonite-iOS.app */,
+				497CBB0D1DA89DC100A63A50 /* Cryptonite-iOSTests.xctest */,
+				497CBB181DA89DC100A63A50 /* Cryptonite-iOSUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		497CBAFB1DA89DC100A63A50 /* Cryptonite-iOS */ = {
+			isa = PBXGroup;
+			children = (
+				497CBAFC1DA89DC100A63A50 /* AppDelegate.swift */,
+				497CBAFE1DA89DC100A63A50 /* ViewController.swift */,
+				497CBB001DA89DC100A63A50 /* Main.storyboard */,
+				497CBB031DA89DC100A63A50 /* Assets.xcassets */,
+				497CBB051DA89DC100A63A50 /* LaunchScreen.storyboard */,
+				497CBB081DA89DC100A63A50 /* Info.plist */,
+			);
+			path = "Cryptonite-iOS";
+			sourceTree = "<group>";
+		};
+		497CBB101DA89DC100A63A50 /* Cryptonite-iOSTests */ = {
+			isa = PBXGroup;
+			children = (
+				497CBB111DA89DC100A63A50 /* Cryptonite_iOSTests.swift */,
+				497CBB131DA89DC100A63A50 /* Info.plist */,
+			);
+			path = "Cryptonite-iOSTests";
+			sourceTree = "<group>";
+		};
+		497CBB1B1DA89DC100A63A50 /* Cryptonite-iOSUITests */ = {
+			isa = PBXGroup;
+			children = (
+				497CBB1C1DA89DC200A63A50 /* Cryptonite_iOSUITests.swift */,
+				497CBB1E1DA89DC200A63A50 /* Info.plist */,
+			);
+			path = "Cryptonite-iOSUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		497CBAF81DA89DC100A63A50 /* Cryptonite-iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 497CBB211DA89DC200A63A50 /* Build configuration list for PBXNativeTarget "Cryptonite-iOS" */;
+			buildPhases = (
+				497CBAF51DA89DC100A63A50 /* Sources */,
+				497CBAF61DA89DC100A63A50 /* Frameworks */,
+				497CBAF71DA89DC100A63A50 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Cryptonite-iOS";
+			productName = "Cryptonite-iOS";
+			productReference = 497CBAF91DA89DC100A63A50 /* Cryptonite-iOS.app */;
+			productType = "com.apple.product-type.application";
+		};
+		497CBB0C1DA89DC100A63A50 /* Cryptonite-iOSTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 497CBB241DA89DC200A63A50 /* Build configuration list for PBXNativeTarget "Cryptonite-iOSTests" */;
+			buildPhases = (
+				497CBB091DA89DC100A63A50 /* Sources */,
+				497CBB0A1DA89DC100A63A50 /* Frameworks */,
+				497CBB0B1DA89DC100A63A50 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				497CBB0F1DA89DC100A63A50 /* PBXTargetDependency */,
+			);
+			name = "Cryptonite-iOSTests";
+			productName = "Cryptonite-iOSTests";
+			productReference = 497CBB0D1DA89DC100A63A50 /* Cryptonite-iOSTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		497CBB171DA89DC100A63A50 /* Cryptonite-iOSUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 497CBB271DA89DC200A63A50 /* Build configuration list for PBXNativeTarget "Cryptonite-iOSUITests" */;
+			buildPhases = (
+				497CBB141DA89DC100A63A50 /* Sources */,
+				497CBB151DA89DC100A63A50 /* Frameworks */,
+				497CBB161DA89DC100A63A50 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				497CBB1A1DA89DC100A63A50 /* PBXTargetDependency */,
+			);
+			name = "Cryptonite-iOSUITests";
+			productName = "Cryptonite-iOSUITests";
+			productReference = 497CBB181DA89DC100A63A50 /* Cryptonite-iOSUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		497CBAF11DA89DC100A63A50 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Andrew Arpasi";
+				TargetAttributes = {
+					497CBAF81DA89DC100A63A50 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					497CBB0C1DA89DC100A63A50 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 497CBAF81DA89DC100A63A50;
+					};
+					497CBB171DA89DC100A63A50 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 497CBAF81DA89DC100A63A50;
+					};
+				};
+			};
+			buildConfigurationList = 497CBAF41DA89DC100A63A50 /* Build configuration list for PBXProject "Cryptonite-iOS" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 497CBAF01DA89DC100A63A50;
+			productRefGroup = 497CBAFA1DA89DC100A63A50 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				497CBAF81DA89DC100A63A50 /* Cryptonite-iOS */,
+				497CBB0C1DA89DC100A63A50 /* Cryptonite-iOSTests */,
+				497CBB171DA89DC100A63A50 /* Cryptonite-iOSUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		497CBAF71DA89DC100A63A50 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				497CBB071DA89DC100A63A50 /* LaunchScreen.storyboard in Resources */,
+				497CBB041DA89DC100A63A50 /* Assets.xcassets in Resources */,
+				497CBB021DA89DC100A63A50 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		497CBB0B1DA89DC100A63A50 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		497CBB161DA89DC100A63A50 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		497CBAF51DA89DC100A63A50 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				497CBAFF1DA89DC100A63A50 /* ViewController.swift in Sources */,
+				497CBAFD1DA89DC100A63A50 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		497CBB091DA89DC100A63A50 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				497CBB121DA89DC100A63A50 /* Cryptonite_iOSTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		497CBB141DA89DC100A63A50 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				497CBB1D1DA89DC200A63A50 /* Cryptonite_iOSUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		497CBB0F1DA89DC100A63A50 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 497CBAF81DA89DC100A63A50 /* Cryptonite-iOS */;
+			targetProxy = 497CBB0E1DA89DC100A63A50 /* PBXContainerItemProxy */;
+		};
+		497CBB1A1DA89DC100A63A50 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 497CBAF81DA89DC100A63A50 /* Cryptonite-iOS */;
+			targetProxy = 497CBB191DA89DC100A63A50 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		497CBB001DA89DC100A63A50 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				497CBB011DA89DC100A63A50 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		497CBB051DA89DC100A63A50 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				497CBB061DA89DC100A63A50 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		497CBB1F1DA89DC200A63A50 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		497CBB201DA89DC200A63A50 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		497CBB221DA89DC200A63A50 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Cryptonite-iOS/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "aarpasi.Cryptonite-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		497CBB231DA89DC200A63A50 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Cryptonite-iOS/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "aarpasi.Cryptonite-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		497CBB251DA89DC200A63A50 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Cryptonite-iOSTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "aarpasi.Cryptonite-iOSTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Cryptonite-iOS.app/Cryptonite-iOS";
+			};
+			name = Debug;
+		};
+		497CBB261DA89DC200A63A50 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Cryptonite-iOSTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "aarpasi.Cryptonite-iOSTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Cryptonite-iOS.app/Cryptonite-iOS";
+			};
+			name = Release;
+		};
+		497CBB281DA89DC200A63A50 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Cryptonite-iOSUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "aarpasi.Cryptonite-iOSUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Cryptonite-iOS";
+			};
+			name = Debug;
+		};
+		497CBB291DA89DC200A63A50 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Cryptonite-iOSUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "aarpasi.Cryptonite-iOSUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Cryptonite-iOS";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		497CBAF41DA89DC100A63A50 /* Build configuration list for PBXProject "Cryptonite-iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				497CBB1F1DA89DC200A63A50 /* Debug */,
+				497CBB201DA89DC200A63A50 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		497CBB211DA89DC200A63A50 /* Build configuration list for PBXNativeTarget "Cryptonite-iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				497CBB221DA89DC200A63A50 /* Debug */,
+				497CBB231DA89DC200A63A50 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		497CBB241DA89DC200A63A50 /* Build configuration list for PBXNativeTarget "Cryptonite-iOSTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				497CBB251DA89DC200A63A50 /* Debug */,
+				497CBB261DA89DC200A63A50 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		497CBB271DA89DC200A63A50 /* Build configuration list for PBXNativeTarget "Cryptonite-iOSUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				497CBB281DA89DC200A63A50 /* Debug */,
+				497CBB291DA89DC200A63A50 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 497CBAF11DA89DC100A63A50 /* Project object */;
+}
