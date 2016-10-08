@@ -6,26 +6,9 @@ import qrcode
 import socket
 from flask import Flask
 from flask import request
-
+import os
 
 app = Flask(__name__)
-
-
-@app.route('/')
-def hello_world():
-    print 'shit nuggets'
-    return 'shit nuggets'
-
-@app.route('/poopass')
-def hello_worlz():
-    print 'poop ass'
-    return 'poop ass'
-
-@app.route('/phonetopc', methods=["GET","POST"])
-def updatePC():
-    incoming = request.data
-    print 'incoming: ',incoming
-    return 'booty'
 
 MODE = AES.MODE_CFB
 BLOCK_SIZE = 16
@@ -35,6 +18,12 @@ passInfo = [
     ['facebook','herp@derp.com','password'],
     ['pornhub','lenny@face.com','lenny']
 ]
+
+def combine():
+    list1 = json.loads(decrypt(KEY, IV, open('/home/vishnu/Desktop/temp', 'r').read()))
+    os.remove('/home/vishnu/Desktop/temp')
+    list2 = list(passInfo)
+    return list1 + list(set(list2) - set(list1))
 
 def beginSession():
     passInfo = json.loads(decrypt(KEY, IV, open('/home/vishnu/Desktop/bms.txt','r').read()))
@@ -59,20 +48,10 @@ def syncComputerToPhone():
     qrimg = qr.make_image()
     qrimg.show()
 
-
-
-
 def syncPhoneToComputer():
-
-
     host = get_lan_ip()
     port = 4200
-
-
-
     print "", host, ":", port
-
-
     qr = qrcode.QRCode(
         version=1,
         error_correction=qrcode.constants.ERROR_CORRECT_L,
@@ -84,8 +63,9 @@ def syncPhoneToComputer():
 
     qrimg = qr.make_image()
     qrimg.show()
-
-    app.run(host=get_lan_ip(), port=port, debug=False)
+    input = json.loads(decrypt(KEY, IV, open('/home/vishnu/Desktop/temp', 'r').read()))
+    os.remove('/home/vishnu/Desktop/temp')
+    return input
 
 def get_lan_ip():
     s = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
@@ -166,10 +146,7 @@ def _unpad_string(value):
         value = value[:-1]
     return value
 
-
-
-
 beginSession()
-syncPhoneToComputer()
+print syncPhoneToComputer()
 endSession()
 print get_lan_ip()
