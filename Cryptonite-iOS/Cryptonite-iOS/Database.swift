@@ -13,6 +13,7 @@ class Database {
     
     static var decryptedJSON = "[]"
     static var websiteJSON: [JSON] = [JSON]()
+    static var decrypted: Bool = false
     
     static func writeDatabase(hex: String, pass: String) {
         let aes = AESHelper(key: ProceduralHelper.generateHash(hex,pass: pass), iv: ProceduralHelper.generateIV(hex,pass: pass))
@@ -38,16 +39,27 @@ class Database {
         if(decryptedJSON.hasPrefix("[")) {
             websiteJSON = JSON(data: decryptedJSON.dataUsingEncoding(NSUTF8StringEncoding, allowLossyConversion: false)!).array!
             decryptedJSON = websiteJSON.description
+            decrypted = true
             return true
         } else {
             return false
         }
     }
     
+    static func getWebsiteDetailAtIndices(a: Int, b: Int) -> String {
+        return websiteJSON[a][b].stringValue
+    }
+    
+    static func setWebsiteDetailAtIndices(a: Int, b: Int, detail: String) {
+        websiteJSON[a][b] = JSON(detail)
+        decryptedJSON = websiteJSON.description
+    }
+    
     static func saveWebsite(name: String,user: String,password: String) {
         let website = Website(name: name, user: user, password: password)
         websiteJSON.append(website.getArrayItem())
         decryptedJSON = websiteJSON.description
+        print(websiteJSON[0][1])
         print(decryptedJSON)
     }
     

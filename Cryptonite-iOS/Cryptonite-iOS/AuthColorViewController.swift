@@ -18,12 +18,14 @@ class AuthColorViewController: UIViewController, UICollectionViewDelegate, UICol
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        NSNotificationCenter.defaultCenter().addObserver(self, selector: "receiveNotif:", name: "unlockSuccessNotif", object: nil)
+        NSNotificationCenter.defaultCenter().addObserver(self, selector: "receiveNotif:", name: "unlockFailNotif", object: nil)
         Database.decryptedJSON = "[ [ \"reddit\", \"herp@derp.com\", \"password\" ], [ \"pornhub\", \"lenny@face.com\", \"lenny\" ], [\"spexy\", \"reddit\", \"poop\"] ]"
         Database.writeDatabase("#2980B9#2980B9#27AE60#27AE60#E67E22#E67E22", pass: "MrKrabs@123")
         let dsi = DesktopServerInteractor()
         print(Database.loadEncryptedData())
         dsi.serverURL = "http://192.168.43.179:4200"
-        dsi.combineRequest()
+        //dsi.combineRequest()
         progressIndicator.progress = 0
         
         
@@ -33,6 +35,15 @@ class AuthColorViewController: UIViewController, UICollectionViewDelegate, UICol
         Database.decrypt("#2980B9#2980B9#27AE60#27AE60#E67E22#E67E22", pass: "MrKrabs@123")
                 */
         // Do any additional setup after loading the view.
+    }
+    
+    func receiveNotif(notif: NSNotification) {
+        if(notif.name == "unlockFailNotif") {
+            selectedHexStr = ""
+            selectedHexCount = 0
+        } else {
+            self.dismissViewControllerAnimated(true, completion: nil)
+        }
     }
     
     override func didReceiveMemoryWarning() {
@@ -103,7 +114,8 @@ class AuthColorViewController: UIViewController, UICollectionViewDelegate, UICol
         print(selectedHexStr)
         
         if(selectedHexCount == 6) {
-            //self.performSegueWithIdentifier("unlockVaultSegue", sender: self)
+            AuthenticationManager.currentHex = selectedHexStr
+            self.performSegueWithIdentifier("unlockVaultSegue", sender: self)
         }
     }
     

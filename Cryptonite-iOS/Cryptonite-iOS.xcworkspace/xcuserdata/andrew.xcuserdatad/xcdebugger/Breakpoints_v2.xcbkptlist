@@ -41,13 +41,13 @@
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "Cryptonite-iOS/Database.swift"
-            timestampString = "497707811.932361"
+            filePath = "Cryptonite-iOS/Assets.xcassets/VaultListTableViewController.swift"
+            timestampString = "497720306.653264"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "30"
-            endingLineNumber = "30"
-            landmarkName = "decrypt(_:pass:)"
+            startingLineNumber = "76"
+            endingLineNumber = "76"
+            landmarkName = "tableView(_:didSelectRowAtIndexPath:)"
             landmarkType = "5">
          </BreakpointContent>
       </BreakpointProxy>
@@ -57,13 +57,13 @@
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "Cryptonite-iOS/Database.swift"
-            timestampString = "497707812.679158"
+            filePath = "Cryptonite-iOS/Assets.xcassets/VaultListTableViewController.swift"
+            timestampString = "497720306.653264"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "31"
-            endingLineNumber = "31"
-            landmarkName = "decrypt(_:pass:)"
+            startingLineNumber = "77"
+            endingLineNumber = "77"
+            landmarkName = "tableView(_:didSelectRowAtIndexPath:)"
             landmarkType = "5">
          </BreakpointContent>
       </BreakpointProxy>
@@ -73,14 +73,46 @@
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "Cryptonite-iOS/Database.swift"
-            timestampString = "497707813.27622"
+            filePath = "Cryptonite-iOS/Assets.xcassets/VaultListTableViewController.swift"
+            timestampString = "497720306.653264"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "32"
-            endingLineNumber = "32"
-            landmarkName = "decrypt(_:pass:)"
+            startingLineNumber = "78"
+            endingLineNumber = "78"
+            landmarkName = "tableView(_:didSelectRowAtIndexPath:)"
             landmarkType = "5">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Cryptonite_iOS.VaultListTableViewController.tableView (__ObjC.UITableView, didSelectRowAtIndexPath : __ObjC.NSIndexPath) -&gt; ()"
+                  moduleName = "Cryptonite-iOS"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/andrew/Documents/Projects/Cryptonite/Cryptonite-iOS/Cryptonite-iOS/Assets.xcassets/VaultListTableViewController.swift"
+                  timestampString = "497720135.517207"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "77"
+                  endingLineNumber = "77"
+                  offsetFromSymbolStart = "144">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Cryptonite_iOS.VaultListTableViewController.(tableView (__ObjC.UITableView, didSelectRowAtIndexPath : __ObjC.NSIndexPath) -&gt; ()).(closure #1)"
+                  moduleName = "Cryptonite-iOS"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/andrew/Documents/Projects/Cryptonite/Cryptonite-iOS/Cryptonite-iOS/Assets.xcassets/VaultListTableViewController.swift"
+                  timestampString = "497720135.517402"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "77"
+                  endingLineNumber = "77"
+                  offsetFromSymbolStart = "4">
+               </Location>
+            </Locations>
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -89,13 +121,13 @@
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "Cryptonite-iOS/Database.swift"
-            timestampString = "497707814.297376"
+            filePath = "Cryptonite-iOS/Assets.xcassets/VaultListTableViewController.swift"
+            timestampString = "497720306.653264"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "33"
-            endingLineNumber = "33"
-            landmarkName = "decrypt(_:pass:)"
+            startingLineNumber = "75"
+            endingLineNumber = "75"
+            landmarkName = "tableView(_:didSelectRowAtIndexPath:)"
             landmarkType = "5">
          </BreakpointContent>
       </BreakpointProxy>
