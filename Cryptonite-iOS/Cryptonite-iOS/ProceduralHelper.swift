@@ -9,7 +9,7 @@
 import UIKit
 
 class ProceduralHelper {
-    static func generateHash(hex: String, pass: String) {
+    static func generateFullHash(hex: String, pass: String) -> String {
         var rawSeed = hex
         
         var seed: Int = 0
@@ -35,26 +35,40 @@ class ProceduralHelper {
         
         for a in nums {
             let n = Int(String(a))
-            print(String(Character(UnicodeScalar((65+n!)))))
-            
             rawSeed = rawSeed.insert(String(Character(UnicodeScalar((65+n!)))), ind: n!)
         }
         
         print(rawSeed)
         
-        var hashedStringRaw = sha256(rawSeed.dataUsingEncoding(NSASCIIStringEncoding)!)
+        let hashedStringRaw = sha256(rawSeed.dataUsingEncoding(NSASCIIStringEncoding)!)
+        
+        return hashedStringRaw
+        
+    }
+    
+    static func generateIV(hex: String, pass: String) -> String {
+        var hashedStringRaw = generateFullHash(hex, pass: pass)
+        
+        hashedStringRaw = hashedStringRaw.stringByReplacingOccurrencesOfString("<", withString: "")
+        hashedStringRaw = hashedStringRaw.stringByReplacingOccurrencesOfString(">", withString: "")
+        
+        let hashedString = hashedStringRaw.substringFromIndex(hashedStringRaw.endIndex.advancedBy(-16))
+                
+        return hashedString
+    }
+    
+    static func generateHash(hex: String, pass: String) -> String {
+        var hashedStringRaw = generateFullHash(hex, pass: pass)
         
         hashedStringRaw = hashedStringRaw.stringByReplacingOccurrencesOfString("<", withString: "")
         hashedStringRaw = hashedStringRaw.stringByReplacingOccurrencesOfString(">", withString: "")
         
         let hashedString = hashedStringRaw.substringToIndex(hashedStringRaw.startIndex.advancedBy(32))
-        print("hashed raw: " + hashedStringRaw)
         
-        print("hashed: " + hashedString)
+        return hashedString
     }
     
-    static
-        func sha256(data : NSData) -> String {
+    static func sha256(data : NSData) -> String {
         
         let res = NSMutableData(length: Int(CC_SHA256_DIGEST_LENGTH))
         

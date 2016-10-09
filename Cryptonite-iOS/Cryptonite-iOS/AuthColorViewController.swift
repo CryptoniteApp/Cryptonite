@@ -15,10 +15,10 @@ class AuthColorViewController: UIViewController, UICollectionViewDelegate, UICol
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        ProceduralHelper.generateHash("#d40909#1aa72c#d40909#0f1de1#fda115#f617c0", pass: "VisA#tt7")
-        for subview in placeholders.subviews {
-            
-        }
+        Database.decryptedJSON = "['hello','world']"
+        Database.writeDatabase("#d40909#1aa72c#d40909#0f1de1#fda115#f617c0", pass: "Vishnu@123abcdef3841@#")
+        print(Database.loadEncryptedData())
+        Database.decrypt("#d40909#1aa72c#d40909#0f1de1#fda115#f617c0", pass: "Vishnu@123abcdef3841@#")
         
         // Do any additional setup after loading the view.
     }
@@ -45,7 +45,7 @@ class AuthColorViewController: UIViewController, UICollectionViewDelegate, UICol
         
         cell.layer.cornerRadius = 43
         cell.layer.borderWidth = 4
-        cell.layer.borderColor = UIColor(netHex: 0x2980b9).CGColor
+        cell.layer.borderColor = UIColor(hexString: "2980b9").CGColor
         
         // Configure the cell
         
