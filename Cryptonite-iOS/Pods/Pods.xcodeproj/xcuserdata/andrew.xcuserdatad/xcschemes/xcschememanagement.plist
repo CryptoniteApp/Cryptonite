@@ -24,6 +24,11 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
+		<key>QRCodeReader.swift.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
@@ -37,12 +42,17 @@
 			<key>primary</key>
 			<true/>
 		</dict>
+		<key>4E5EAC28EBD307FDBA43EE3403950D09</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
 		<key>543735C3C6471A3C04B168B055EED756</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>D968119FF3A7ED1EA6227D7A03BF7520</key>
+		<key>BFBCDAE4131049BBA046ED4142B2C051</key>
 		<dict>
 			<key>primary</key>
 			<true/>

@@ -37,8 +37,8 @@
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="Ldg-Fe-pMu">
-                                <rect key="frame" x="0.0" y="108" width="600" height="492"/>
+                            <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="Ldg-Fe-pMu">
+                                <rect key="frame" x="0.0" y="154" width="600" height="446"/>
                                 <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="10" minimumInteritemSpacing="10" id="mXf-aa-GOk">
                                     <size key="itemSize" width="50" height="50"/>
                                     <size key="headerReferenceSize" width="0.0" height="0.0"/>
@@ -60,16 +60,15 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstAttribute="trailing" secondItem="Ldg-Fe-pMu" secondAttribute="trailing" id="8hf-8D-dWA"/>
-                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="Ldg-Fe-pMu" secondAttribute="bottom" id="Fxa-7A-lVd"/>
                             <constraint firstItem="01r-qf-Rpp" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" id="Lxi-Dd-V3I"/>
                             <constraint firstItem="79V-dU-1Sx" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="ZAc-vo-lxT"/>
-                            <constraint firstItem="Ldg-Fe-pMu" firstAttribute="top" secondItem="79V-dU-1Sx" secondAttribute="bottom" constant="8" id="hmL-gj-lzE"/>
                             <constraint firstItem="79V-dU-1Sx" firstAttribute="top" secondItem="01r-qf-Rpp" secondAttribute="bottom" constant="8" id="q7J-Cq-mVk"/>
                             <constraint firstItem="01r-qf-Rpp" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="uS2-aL-EfR"/>
-                            <constraint firstItem="Ldg-Fe-pMu" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="voa-K1-7Sp"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="colorCollection" destination="Ldg-Fe-pMu" id="3xh-Yz-BVt"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
@@ -78,7 +77,6 @@
         <!--View Controller-->
         <scene sceneID="aKm-A0-asW">
             <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="IkK-gV-uDJ" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <viewController id="iu0-rK-kBt" customClass="ViewController" customModule="Cryptonite_iOS" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="tTf-RH-L6Y"/>
@@ -141,6 +139,7 @@
                     </view>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics"/>
                 </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="IkK-gV-uDJ" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="961" y="399"/>
         </scene>

@@ -1,0 +1,35 @@
+{
+    "manifest_version": 2,
+    
+    "name": "Cryptonite",
+    "description": "This is a chrome extension that helps you manage your passwords",
+    "version": "1.0",
+    
+    "background": {
+        "scripts": ["background.js"]
+    },
+    
+    "content_scripts": [
+        {
+            "matches": ["<all_urls>"],
+            "js": ["jquery-3.1.1.js"]
+        }
+    ],
+    
+
+    "permissions": [
+        "tabs", "http://*/*", "https://*/*"
+    ],
+    
+    "browser_action": {
+        "default_icon": "CryptoniteLogo36.png",
+        //"default_popup": "",
+        "default_title": "Cryptonite"
+    },
+    
+    "icons": {
+        "250": "CryptoniteLogo36.png"
+    }
+    
+    
+}

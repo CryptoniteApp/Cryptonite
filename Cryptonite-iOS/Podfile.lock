@@ -1,12 +1,15 @@
 PODS:
   - CryptoSwift (0.5.1)
+  - QRCodeReader.swift (6.0.0)
 
 DEPENDENCIES:
   - CryptoSwift
+  - QRCodeReader.swift
 
 SPEC CHECKSUMS:
   CryptoSwift: df42dda18baf6c76347a94e227dbcc0a341304bd
+  QRCodeReader.swift: 4aa8b0f88847a51312d6ffd2cafc387962da9dd8
 
-PODFILE CHECKSUM: 37b956353e7aa231befb264bc34e50b144439687
+PODFILE CHECKSUM: a73d3cdd08d9ae92821687d7ec7bc31bb03c5c33
 
 COCOAPODS: 1.0.1
