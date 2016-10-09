@@ -11,8 +11,8 @@
     
     "content_scripts": [
         {
-            "matches": ["<all_urls>"],
-            "js": ["jquery-3.1.1.js"]
+            "matches": ["http://*/*", "https://*/*"],
+            "js": ["EncryptionKey.js", "jquery-3.1.1.js"]
         }
     ],
     
@@ -23,7 +23,6 @@
     
     "browser_action": {
         "default_icon": "CryptoniteLogo36.png",
-        //"default_popup": "",
         "default_title": "Cryptonite"
     },
     
