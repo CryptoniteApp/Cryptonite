@@ -21,13 +21,11 @@ class AuthColorViewController: UIViewController, UICollectionViewDelegate, UICol
         print(Database.loadEncryptedData())
         dsi.serverURL = "http://192.168.43.179:4200"
         dsi.combineRequest()*/
-        
     NSUserDefaults.standardUserDefaults().setObject("c68b01c04829c48edaf865f88e742f45b2f1322fcf8d33556ce3de02600fa3e12712adf7744cc33bd8b739c294f278e08c5a75ed61ef9202172919a766281ddee56433aca5ee2d2b438c51740d4bbe7181e04117609dd7225a1fd722f1ab5a7b629da6a8ac8eeeda68e0dc51a13da2fd8c69044ea7fe031b9e4e8060088df897", forKey: "database")
         NSUserDefaults.standardUserDefaults().synchronize()
         
         Database.decrypt("#2980B9#27860#E67E22#AE44AB#2C3E50#F1C40F", pass: "MrKrabs@123")
-        
-        
+                
         // Do any additional setup after loading the view.
     }
     

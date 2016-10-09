@@ -27,6 +27,8 @@
 		49D143271DA9C8E00021BE27 /* Website.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49D143261DA9C8E00021BE27 /* Website.swift */; };
 		49D143291DA9C99C0021BE27 /* StringExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49D143281DA9C99C0021BE27 /* StringExtension.swift */; };
 		49D1432B1DA9F9750021BE27 /* VaultListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49D1432A1DA9F9750021BE27 /* VaultListTableViewController.swift */; };
+		49D1432D1DAA50450021BE27 /* AuthenticationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49D1432C1DAA50450021BE27 /* AuthenticationManager.swift */; };
+		49D1432F1DAA526A0021BE27 /* Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49D1432E1DAA526A0021BE27 /* Utilities.swift */; };
 		D6DF86295C12911ECF95982A /* Pods_Cryptonite_iOSTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 32158CE146B478904AD60E16 /* Pods_Cryptonite_iOSTests.framework */; };
 		F07D504EED7A96146A57ECA9 /* Pods_Cryptonite_iOSUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 05EEF8036F04191F14F358F6 /* Pods_Cryptonite_iOSUITests.framework */; };
 /* End PBXBuildFile section */
@@ -79,6 +81,8 @@
 		49D143261DA9C8E00021BE27 /* Website.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Website.swift; path = ../Pods/Website.swift; sourceTree = "<group>"; };
 		49D143281DA9C99C0021BE27 /* StringExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StringExtension.swift; sourceTree = "<group>"; };
 		49D1432A1DA9F9750021BE27 /* VaultListTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = VaultListTableViewController.swift; path = Assets.xcassets/VaultListTableViewController.swift; sourceTree = "<group>"; };
+		49D1432C1DAA50450021BE27 /* AuthenticationManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AuthenticationManager.swift; sourceTree = "<group>"; };
+		49D1432E1DAA526A0021BE27 /* Utilities.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Utilities.swift; sourceTree = "<group>"; };
 		4C148F56DE736DDEFC5ADA2E /* Pods-Cryptonite-iOSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Cryptonite-iOSTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Cryptonite-iOSTests/Pods-Cryptonite-iOSTests.release.xcconfig"; sourceTree = "<group>"; };
 		5776C0CE24D739FC3A2EF179 /* Pods-Cryptonite-iOSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Cryptonite-iOSTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Cryptonite-iOSTests/Pods-Cryptonite-iOSTests.debug.xcconfig"; sourceTree = "<group>"; };
 		C52229A33AEA196830C0F478 /* Pods-Cryptonite-iOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Cryptonite-iOS.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Cryptonite-iOS/Pods-Cryptonite-iOS.debug.xcconfig"; sourceTree = "<group>"; };
@@ -152,10 +156,12 @@
 		494BE5F61DA8E3110015B2E0 /* Helpers */ = {
 			isa = PBXGroup;
 			children = (
+				49D1432E1DAA526A0021BE27 /* Utilities.swift */,
 				497CBB2A1DA8A35B00A63A50 /* AESHelper.swift */,
 				49D143161DA98ED20021BE27 /* ProceduralHelper.swift */,
 				49D143281DA9C99C0021BE27 /* StringExtension.swift */,
 				49D1431E1DA993020021BE27 /* DesktopServerInteractor.swift */,
+				49D1432C1DAA50450021BE27 /* AuthenticationManager.swift */,
 				49D143221DA9B24B0021BE27 /* ColorHelper.swift */,
 			);
 			name = Helpers;
@@ -492,8 +498,10 @@
 				494BE5F01DA8C0E20015B2E0 /* AuthColorViewController.swift in Sources */,
 				49D1431F1DA993020021BE27 /* DesktopServerInteractor.swift in Sources */,
 				494BE5F21DA8C1390015B2E0 /* JunkCollectionViewController.swift in Sources */,
+				49D1432D1DAA50450021BE27 /* AuthenticationManager.swift in Sources */,
 				497CBAFF1DA89DC100A63A50 /* ViewController.swift in Sources */,
 				497CBB2B1DA8A35B00A63A50 /* AESHelper.swift in Sources */,
+				49D1432F1DAA526A0021BE27 /* Utilities.swift in Sources */,
 				49D1431D1DA9908F0021BE27 /* PCSyncViewController.swift in Sources */,
 				49D1432B1DA9F9750021BE27 /* VaultListTableViewController.swift in Sources */,
 				497CBAFD1DA89DC100A63A50 /* AppDelegate.swift in Sources */,

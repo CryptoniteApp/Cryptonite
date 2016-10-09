@@ -6,7 +6,7 @@ target 'Cryptonite-iOS' do
   use_frameworks!
   pod 'CryptoSwift'
   pod 'QRCodeReader.swift'
-  
+  pod 'SwiftyJSON'
   # Pods for Cryptonite-iOS
 
   target 'Cryptonite-iOSTests' do

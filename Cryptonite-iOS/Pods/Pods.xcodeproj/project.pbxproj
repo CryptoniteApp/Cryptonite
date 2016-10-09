@@ -7,219 +7,246 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		028C16AE7619B55A39FDBF62A1EB1F95 /* HMAC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC3B94C50D69221B2DB94FAB898C5010 /* HMAC.swift */; };
-		05399B5D2BD87181A00D8D578CF51926 /* NSData+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D4129B06806B8D018934CBE0DBF5C26 /* NSData+Extension.swift */; };
-		060319AA896BD846262C071625806529 /* Authenticator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E9FAF2F841A706F98F695C6741BF066 /* Authenticator.swift */; };
-		08429BCC5D54ABD6D66CD4D897FF1FAF /* IntExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = D954DB1F0CD292F15A902FF5E0B5A31E /* IntExtension.swift */; };
-		0866CA9BA1D1F8AAC325478559A3B6C4 /* CSArrayType+Foundation.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD2E397BFDAD5B2A0AC545406ABC45DE /* CSArrayType+Foundation.swift */; };
-		0AD32014C4912FCE3DE742FA9CB52A08 /* CryptoSwift-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1D06E120F1447DC8592F8F5D0EE68D9E /* CryptoSwift-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		0C416212F59E56E80EEB9520CC533D60 /* NoPadding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E40374917BE250D0CF126A44A3F1F98 /* NoPadding.swift */; };
-		0DF4FA6405948A216522992B0CD67039 /* Array+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA6D308C36C4B1F7F4D21094ADDACC99 /* Array+Extension.swift */; };
-		10BE5ECD87AC98A4BDED491876DA1AD7 /* PKCS7.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59EBF83D670B2D02963026A3C87C9891 /* PKCS7.swift */; };
-		12B3A9C77CF88286B99B556A0B4C8D34 /* PBKDF2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F324FADDD55F28C4C8BB2B2BB69E99C /* PBKDF2.swift */; };
-		12B581422D2240F452F78F22BB7C34B2 /* String+FoundationExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAC2326CAEE8C5CBF78E3C40853273C9 /* String+FoundationExtension.swift */; };
-		13EED32B815423D4DE8238EE21487924 /* SwitchCameraButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64C213B04E0D12BE53A446F9C072E592 /* SwitchCameraButton.swift */; };
-		19B949426A91124CFAE33ECECD8D073A /* Pods-Cryptonite-iOS-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = AECA2E4DE162FF8F5286C9CE9AD9E46B /* Pods-Cryptonite-iOS-dummy.m */; };
-		19EDE0F9C1AB84D2CF5C5A7011C9DD56 /* Multiplatform.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5546BDFB4A118E9787ACF5EF0E793B33 /* Multiplatform.swift */; };
+		028C16AE7619B55A39FDBF62A1EB1F95 /* HMAC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41DBB37572BD892908C2F18E7764C2AD /* HMAC.swift */; };
+		05399B5D2BD87181A00D8D578CF51926 /* NSData+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 276F5B6C8182808F988A6CE88AA353CF /* NSData+Extension.swift */; };
+		060319AA896BD846262C071625806529 /* Authenticator.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8E6600C8B559129C9CC8A7FC4B0BE0A /* Authenticator.swift */; };
+		08429BCC5D54ABD6D66CD4D897FF1FAF /* IntExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1761BF477A592A74EF014824183D29F3 /* IntExtension.swift */; };
+		0866CA9BA1D1F8AAC325478559A3B6C4 /* CSArrayType+Foundation.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA4471C8AFAF1D24481B42917CC87839 /* CSArrayType+Foundation.swift */; };
+		0AD32014C4912FCE3DE742FA9CB52A08 /* CryptoSwift-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4B138200B7E74EFEB0973D9D2A4A42D6 /* CryptoSwift-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0C416212F59E56E80EEB9520CC533D60 /* NoPadding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F8AD942206073FB4C0B181D794EA535 /* NoPadding.swift */; };
+		0DF4FA6405948A216522992B0CD67039 /* Array+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86E7FE0C07B360C82F867ADE7750E273 /* Array+Extension.swift */; };
+		10BE5ECD87AC98A4BDED491876DA1AD7 /* PKCS7.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B7EF7A86F36E9F90BFFE41432225258 /* PKCS7.swift */; };
+		12B3A9C77CF88286B99B556A0B4C8D34 /* PBKDF2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40BF0ACECC066FD9E7124EDC2CADC595 /* PBKDF2.swift */; };
+		12B581422D2240F452F78F22BB7C34B2 /* String+FoundationExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC433C0F6B639CEFAC331BFB7A872A6A /* String+FoundationExtension.swift */; };
+		19EDE0F9C1AB84D2CF5C5A7011C9DD56 /* Multiplatform.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF53DB5B69A5BAB7F13C10F40D824884 /* Multiplatform.swift */; };
+		1A0EBE189D81990160CB7E923E574B60 /* SwiftyJSON-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C2755EA0AFD1545CEA61B1DF675632C1 /* SwiftyJSON-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1E0313D1DCEF697D975E3085A90DB93C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 96A99E1ED6492F91E6807B16994861C5 /* Foundation.framework */; };
 		1EB034291963E70329A27F2FB9312E4B /* Pods-Cryptonite-iOSTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CFBD321CAE59F979AD85153FA69F918B /* Pods-Cryptonite-iOSTests-dummy.m */; };
-		1FAB2DF0C4BEBA60862F4C781824A520 /* QRCodeReader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 528E036429E14C5960BFE14911FF92B4 /* QRCodeReader.swift */; };
-		1FEBDE8C1D80C27855B9D61F94D44E79 /* Cryptors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F746A9CB93BA5F68844059B053CEA01 /* Cryptors.swift */; };
+		1FEBDE8C1D80C27855B9D61F94D44E79 /* Cryptors.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC33A852CDD855E876B300EFE56DCA2E /* Cryptors.swift */; };
 		204DF7311ED192855752CB6002A51C2C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 96A99E1ED6492F91E6807B16994861C5 /* Foundation.framework */; };
-		207B739A1E24F6391CCDB24A6FA03F67 /* ChaCha20+Foundation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41A1BF4402CEE27E409E474D47B17A84 /* ChaCha20+Foundation.swift */; };
-		218FB8A07D9F2E57ACC27F1D1E51FD62 /* CRC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C669581F69209F09584B6C4CA8D427FA /* CRC.swift */; };
-		233C81BFAE6A31EE531B96C6B409BEB7 /* ReaderOverlayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F157E6B1EA9773211B6F484C6E57DAE /* ReaderOverlayView.swift */; };
-		25F569469B8017D74ABDD420BAA0D0D4 /* QRCodeReader.swift-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 310DF8F87D61EDE2BBCF9A86BA77FE66 /* QRCodeReader.swift-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		207B739A1E24F6391CCDB24A6FA03F67 /* ChaCha20+Foundation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 165C17F04E44CA58C6AABAA42F702D8C /* ChaCha20+Foundation.swift */; };
+		218FB8A07D9F2E57ACC27F1D1E51FD62 /* CRC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BDFCC8FA3B10FACB61AE7DC7750CBFB /* CRC.swift */; };
+		24B68D338B05C01FCC396DD1CAA33FF4 /* Pods-Cryptonite-iOS-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = AECA2E4DE162FF8F5286C9CE9AD9E46B /* Pods-Cryptonite-iOS-dummy.m */; };
+		2612D780FAAA572E8C74E6E78D243DB3 /* QRCodeViewControllerBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABCAB3D6D9DB36E65801EAD88790031F /* QRCodeViewControllerBuilder.swift */; };
 		2A766C6AEE9CE42844857F5A02C8966C /* Pods-Cryptonite-iOSUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = CFE0CD2B71314D078012E0CE38A22141 /* Pods-Cryptonite-iOSUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		2DAF2753BDA11FCD6BF29214CFBD94DA /* CFB.swift in Sources */ = {isa = PBXBuildFile; fileRef = 013379E7B5BDA7D6ABB448551AA325B9 /* CFB.swift */; };
-		33C2267B8BB843957859D2FA520634D8 /* String+LinuxFoundation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27B5EEF2920F5C7C317EADEC8153198B /* String+LinuxFoundation.swift */; };
-		39B6834E49765D4E67CBAF0034FC7917 /* Cipher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E2AE3B77F8B9F5CF584E27BFC268EF7 /* Cipher.swift */; };
-		47BA1B149FF272D9D22B2205685A7C38 /* Rabbit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25167201AC4533CA48476A5AE4A0EAD8 /* Rabbit.swift */; };
-		4992D58FAA205449CC2DD75B14AE936D /* ArrayUInt8+Foundation.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBABC57F7356865108F528A631B846B4 /* ArrayUInt8+Foundation.swift */; };
-		4C3FDC1221DAE4479D5B48482093ABFD /* AES+Foundation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6918A6B6A54F8DE55FE8832EEB41E80B /* AES+Foundation.swift */; };
-		4D039AFD9F5CD2EF82A0187D9046C4C8 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 283836EF5A0AA5CDF757AD35B494F1FA /* AVFoundation.framework */; };
-		5417EE75872655F871CCE591B9EBF3EA /* SecureBytes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97C17651C759970A4E45C1527AE86A2D /* SecureBytes.swift */; };
-		54EC411C0E2E4CB494E7ECDF39CB7FD9 /* Rabbit+Foundation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13CFA655BADC6CC0CE7B6179591D81A2 /* Rabbit+Foundation.swift */; };
-		5D27850C4908A0D8BC4ACB77869400D8 /* CBC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0456156091B52A79707DBCC81C29B3F7 /* CBC.swift */; };
-		62ADABA907817817D92A31A4EA5ED29C /* AES.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9068E9DB878A4ADAE6DF89316C1B451D /* AES.swift */; };
-		64DC085E3560B15C4CE74446576394C7 /* BytesSequence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FF74117BF3847B64EE5151E4EC9A048 /* BytesSequence.swift */; };
-		6C677F57AD3D9342FB4825E852B58B06 /* PBKDF1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62E0C103CF7CDBA9BE7AA1723C7B2009 /* PBKDF1.swift */; };
-		6D2960B2EEB75FD63F2BE5A594BECD20 /* QRCodeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AC0C1F48F77CD3A73A47AC85D1EBBF9 /* QRCodeViewController.swift */; };
-		6E7A905C8976B1EEB7E84B88288BC5B2 /* SHA1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 619AFEC90028DCCBFA4A8284ADA1D203 /* SHA1.swift */; };
-		740C96DC8FF69F80E2E4953F48F3374B /* MD5.swift in Sources */ = {isa = PBXBuildFile; fileRef = A58830359F58C5060B52A7BE6496BC53 /* MD5.swift */; };
-		7748F03B817AFCA62BB58B3C72E67438 /* CryptoSwift-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 74AB1921F137154ECA23EF373A7D83CE /* CryptoSwift-dummy.m */; };
-		79105381FC84B7B49AD282FA952D6B7B /* OFB.swift in Sources */ = {isa = PBXBuildFile; fileRef = 222D7483232BFC031634337F8A1BC515 /* OFB.swift */; };
-		79AD931167EF51F0C0155B7402A163E9 /* IntegerConvertible.swift in Sources */ = {isa = PBXBuildFile; fileRef = A63B83C0B39911CCAEDD376A7E093242 /* IntegerConvertible.swift */; };
-		7AB60A40D25880CF2786A5F7EB230C18 /* ToggleTorchButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48CDC1AB322FE5502E0B1E2A6E4BDA31 /* ToggleTorchButton.swift */; };
-		7B7FB97C4A5FE79C0FE1E3339EBAD2C6 /* String+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 371BE97E8467FAF11E2234DA739E8602 /* String+Extension.swift */; };
-		85530B00484837C3D1C26B083B70A460 /* BlockModeWorker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EF6F77A0091DF643C914BFE3F54F4B1 /* BlockModeWorker.swift */; };
-		8C8E595BA9B5C2C9D978B20D81141F53 /* BlockModeOptions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0475B595A29DA1784BE0B630153A989A /* BlockModeOptions.swift */; };
+		2DAF2753BDA11FCD6BF29214CFBD94DA /* CFB.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC8CDC4D4A55E42F9887FA60D0F04162 /* CFB.swift */; };
+		2F650EEC1AA1F5C65BD41EC2668F65E1 /* QRCodeReader.swift-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B94CC7F9C7FAB80C68B7C11046BDD027 /* QRCodeReader.swift-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		33C2267B8BB843957859D2FA520634D8 /* String+LinuxFoundation.swift in Sources */ = {isa = PBXBuildFile; fileRef = F11C5CDF6D65BD5A0E77DAACAC71D5D3 /* String+LinuxFoundation.swift */; };
+		39B6834E49765D4E67CBAF0034FC7917 /* Cipher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CEED8D71058F41DC84DCD6AE54FDACD /* Cipher.swift */; };
+		47BA1B149FF272D9D22B2205685A7C38 /* Rabbit.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB0963C5A5A0DF0D4466DA43EE06F139 /* Rabbit.swift */; };
+		4992D58FAA205449CC2DD75B14AE936D /* ArrayUInt8+Foundation.swift in Sources */ = {isa = PBXBuildFile; fileRef = D47F69651CE2D66E39DE47A4F9BAD7FB /* ArrayUInt8+Foundation.swift */; };
+		4C3FDC1221DAE4479D5B48482093ABFD /* AES+Foundation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45FD43CE39D9A69BCAAB8D871F788998 /* AES+Foundation.swift */; };
+		5417EE75872655F871CCE591B9EBF3EA /* SecureBytes.swift in Sources */ = {isa = PBXBuildFile; fileRef = E71A49899852A6017BEB8FF6F6EDD83D /* SecureBytes.swift */; };
+		54EC411C0E2E4CB494E7ECDF39CB7FD9 /* Rabbit+Foundation.swift in Sources */ = {isa = PBXBuildFile; fileRef = D961208806D9884F09D092F0495BD3F0 /* Rabbit+Foundation.swift */; };
+		5D27850C4908A0D8BC4ACB77869400D8 /* CBC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1A27A60BEACBF4D42F428D30B1071E5 /* CBC.swift */; };
+		62ADABA907817817D92A31A4EA5ED29C /* AES.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0FC7696984B719192C27BB613EFCDE0 /* AES.swift */; };
+		64DC085E3560B15C4CE74446576394C7 /* BytesSequence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A975B72E46C519E50876F662732EFE6 /* BytesSequence.swift */; };
+		6C677F57AD3D9342FB4825E852B58B06 /* PBKDF1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AC7F6B1EE43A0328FCD61375ABF6F1E /* PBKDF1.swift */; };
+		6E7A905C8976B1EEB7E84B88288BC5B2 /* SHA1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 821607B376440773BC5DDFEA277DA54B /* SHA1.swift */; };
+		6FC80E0D8411584389EE971104B54526 /* QRCodeReader.swift-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = AE386A19304A59F389912F11792EDC81 /* QRCodeReader.swift-dummy.m */; };
+		740C96DC8FF69F80E2E4953F48F3374B /* MD5.swift in Sources */ = {isa = PBXBuildFile; fileRef = 045D9D802491CFE4AE16378006D42E31 /* MD5.swift */; };
+		7748F03B817AFCA62BB58B3C72E67438 /* CryptoSwift-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F507612D5821E1052C4A6F557222852C /* CryptoSwift-dummy.m */; };
+		79105381FC84B7B49AD282FA952D6B7B /* OFB.swift in Sources */ = {isa = PBXBuildFile; fileRef = 492B068C8A578F1656B6C387C1EC2E52 /* OFB.swift */; };
+		79AD931167EF51F0C0155B7402A163E9 /* IntegerConvertible.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2C4A9F3B03397A7F0B624D777BF4C83 /* IntegerConvertible.swift */; };
+		79DB9CD6F7CC114B6A0CE3A06DEC9942 /* SwiftyJSON-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F10B4830C8018AD5520B4B2C1DCF46BC /* SwiftyJSON-dummy.m */; };
+		7B7FB97C4A5FE79C0FE1E3339EBAD2C6 /* String+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7A7C0C1BC219068E733C6A85D827BF6 /* String+Extension.swift */; };
+		85530B00484837C3D1C26B083B70A460 /* BlockModeWorker.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8680F9B5FCDD2FC781D737FB18238E8 /* BlockModeWorker.swift */; };
+		8C8E595BA9B5C2C9D978B20D81141F53 /* BlockModeOptions.swift in Sources */ = {isa = PBXBuildFile; fileRef = A41034C21D4DFF4A0B57C86EDDAC29C8 /* BlockModeOptions.swift */; };
 		93DA4CF6A883ADE0D38101D96F562F98 /* Pods-Cryptonite-iOSTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = CEE498E0E89A38BC72DD84EAF48EF487 /* Pods-Cryptonite-iOSTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		95FF4245E6AAC3D8914EC4C94F9D3A61 /* Operators.swift in Sources */ = {isa = PBXBuildFile; fileRef = B15E85DD2CF8BCFF24E2500831A93357 /* Operators.swift */; };
-		978C430B9F78BE83382F7A74C5F8C11C /* Utils+Foundation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DBBAF48AB2792217DC8AAFF5B933D07 /* Utils+Foundation.swift */; };
-		99AF121FDB44CCBB290B3DB25A543DB9 /* CTR.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D13D90F6837F820FB5D218B1F941F83 /* CTR.swift */; };
-		9BB0017BAE25E45BF12815A83EDFE21B /* Poly1305.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D730170B6FF866C9948D0028AAE9E11 /* Poly1305.swift */; };
-		9D44227A256AAEF40EE19D87D2ED6525 /* QRCodeReaderResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60BD6B115B7966F32BE00217B71352C8 /* QRCodeReaderResult.swift */; };
-		A50BCE3EA907DFADCD56B239792A80C7 /* CSArrayType+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = A93B171762EEC0ABED183E1949032686 /* CSArrayType+Extensions.swift */; };
-		A6E20D7FB13FFBE6E97CC86AC1E67DFC /* QRCodeViewControllerBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 567F6B53FF7A77E20FD9A0EE7C913009 /* QRCodeViewControllerBuilder.swift */; };
+		95FF4245E6AAC3D8914EC4C94F9D3A61 /* Operators.swift in Sources */ = {isa = PBXBuildFile; fileRef = 625E131AF56130A14F65AF6268CB9EC5 /* Operators.swift */; };
+		96DA2BE70F7B09F47861943A6FD1669B /* QRCodeReaderResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB4A86B2594C8170A480DEE99C73B050 /* QRCodeReaderResult.swift */; };
+		978C430B9F78BE83382F7A74C5F8C11C /* Utils+Foundation.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC68C104E218F847ADD6DC368379E8DF /* Utils+Foundation.swift */; };
+		99AF121FDB44CCBB290B3DB25A543DB9 /* CTR.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C3CA0F2126F4E7B13C06119B0E4789D /* CTR.swift */; };
+		9BB0017BAE25E45BF12815A83EDFE21B /* Poly1305.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38D4FA7C6F4C851A5E426C50FA609E61 /* Poly1305.swift */; };
+		A50BCE3EA907DFADCD56B239792A80C7 /* CSArrayType+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37C5B7BF8AFA27937E9A81202F769C34 /* CSArrayType+Extensions.swift */; };
 		B3A83CE9C6573B1988F0FB76B36C1FD7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 96A99E1ED6492F91E6807B16994861C5 /* Foundation.framework */; };
-		B61FEF1ADBB7EFABF9AD3974E20641FC /* BlockCipher.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDE8D00138CA15D746BDA46E39D558FD /* BlockCipher.swift */; };
-		B7B2E7FA0E879BA773A09D8238CCD2B3 /* Bit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F06B537F8A8EDAC72696C3283CD6A94 /* Bit.swift */; };
+		B61FEF1ADBB7EFABF9AD3974E20641FC /* BlockCipher.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3D62E64B053F0040B372CCC42CFB9D8 /* BlockCipher.swift */; };
+		B7B2E7FA0E879BA773A09D8238CCD2B3 /* Bit.swift in Sources */ = {isa = PBXBuildFile; fileRef = A92919F86DC4DED2B4A38511DDCF3AD7 /* Bit.swift */; };
 		BA57FD9D08850F46CDFDFD3A01E4CA92 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 96A99E1ED6492F91E6807B16994861C5 /* Foundation.framework */; };
-		BC97FE461C5ED6B2D52A9BC5EEB2229B /* HashProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7607827B27316C4447E7890B09D94AC0 /* HashProtocol.swift */; };
-		C228D7D5308F6682AD2E751303365245 /* Hash.swift in Sources */ = {isa = PBXBuildFile; fileRef = 015B91D938A15AE5F00E381D10F61C96 /* Hash.swift */; };
+		BC97FE461C5ED6B2D52A9BC5EEB2229B /* HashProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32B8B20CA7F5C27855FFBD6F541F0952 /* HashProtocol.swift */; };
+		BCEF4AC17D6827CD8297763B245CA0F1 /* SwiftyJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10FD36FC1055467E3C0716F965D2EC92 /* SwiftyJSON.swift */; };
+		C228D7D5308F6682AD2E751303365245 /* Hash.swift in Sources */ = {isa = PBXBuildFile; fileRef = E81F362BA1EBBA8F3B67E1AC92EE3DEF /* Hash.swift */; };
 		C742B38EA6CD889EB03602A711BB389A /* Pods-Cryptonite-iOSUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B1E2030D0DC3420CD39F069B43959C12 /* Pods-Cryptonite-iOSUITests-dummy.m */; };
-		C7A9901D44CE0FB3FE9E567AC29DD29B /* Pods-Cryptonite-iOS-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = AA42C45F9B78DC05ADEB4DE3B5214526 /* Pods-Cryptonite-iOS-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		CC0ED88C4361EE417E168833E3764B15 /* ChaCha20.swift in Sources */ = {isa = PBXBuildFile; fileRef = 025C12EC90DF98E35838906C727E647C /* ChaCha20.swift */; };
-		CCADA5D6880933D61BC9A707ECC96BD9 /* UInt64Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBE0AC7C524A5985BDBADD0F2F48CCA9 /* UInt64Extension.swift */; };
-		CD0B162C73C533EB1A67B628148FE51C /* UInt8Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC3D792D6521E01FC783C52C5E93AE8A /* UInt8Extension.swift */; };
-		D725D80C8F1AF3DB63283F8EA71EB8A9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 96A99E1ED6492F91E6807B16994861C5 /* Foundation.framework */; };
-		DED0B873F20767CC5553819553E6935B /* BlockMode.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4C95397048AA282E0502433BAD2C487 /* BlockMode.swift */; };
-		E24664448125A6B0128726ADBD45EB35 /* PCBC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 206C95E4D07D1B4F8C45A41EEAD4EEB5 /* PCBC.swift */; };
-		E5C889F0CF699628C94FA63CB7908865 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 96A99E1ED6492F91E6807B16994861C5 /* Foundation.framework */; };
-		E6533A497782F9BFC60B775A5FF6BB5F /* UpdatableCryptor.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8A77B798BA1BBC04B13C693FC9556A5 /* UpdatableCryptor.swift */; };
-		EB7C9E2302F23C7825781DD4AD8682ED /* ECB.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FAFEC969D2EC8044B5658B01A1BD160 /* ECB.swift */; };
-		EDF6644283CE35D5E4FD6FB36ADA36BA /* QRCodeReader.swift-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = EED9BB41AA8FA05408DEF568283C7531 /* QRCodeReader.swift-dummy.m */; };
-		F279803FF9F94685C574A821A8C34D8E /* PKCS5.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5516F9A95E44108C671FFFF83134650A /* PKCS5.swift */; };
-		F9ED2CF064D48C15FCA42F1D895F897E /* Padding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06DB4AFE23D134CA657E9F7FAD10F063 /* Padding.swift */; };
-		FABAA79B9137282973E2F6766F4494D9 /* SHA2.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAAA21A4968B4ACC23EC20AB8306E5F6 /* SHA2.swift */; };
-		FC7383FE8098B45B504B3EC79D26FF9C /* Generics.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E98001BFC893254E0C4D4DCF5FD93FC /* Generics.swift */; };
-		FDD7AF679A62E7E89D2B7487C383B7DF /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DAFAB811EC5D9FAF85074AD44531A31 /* Utils.swift */; };
-		FE682BCD4DAA328952914598E150D86D /* UInt32Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88995BB6F2AA00EDFCAE0B66C3240819 /* UInt32Extension.swift */; };
+		C860FC2AB97D06E654A7E51DAED3D6FB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 96A99E1ED6492F91E6807B16994861C5 /* Foundation.framework */; };
+		CC0ED88C4361EE417E168833E3764B15 /* ChaCha20.swift in Sources */ = {isa = PBXBuildFile; fileRef = 865441BFE255166F485ADA7649CC5650 /* ChaCha20.swift */; };
+		CC5E2EF6A44CEF18D17DAF99969B4D20 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 283836EF5A0AA5CDF757AD35B494F1FA /* AVFoundation.framework */; };
+		CCADA5D6880933D61BC9A707ECC96BD9 /* UInt64Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0812397F39014B2A5D22BB98AF381E65 /* UInt64Extension.swift */; };
+		CD0B162C73C533EB1A67B628148FE51C /* UInt8Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = B06EC187883E147127508075F8904268 /* UInt8Extension.swift */; };
+		D34D35958C617D40A689BA4B46C1EBE3 /* ToggleTorchButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = D129B15A077DB6434416DAA596B01DC4 /* ToggleTorchButton.swift */; };
+		D659CB222F2B22969D51A2DF97AE6B29 /* SwitchCameraButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59BEA51867007CFBC3C85BD5FAF09511 /* SwitchCameraButton.swift */; };
+		DED0B873F20767CC5553819553E6935B /* BlockMode.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABD20F1E54CE233B001FD6DC645A96B9 /* BlockMode.swift */; };
+		E24664448125A6B0128726ADBD45EB35 /* PCBC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DFF620C77D37A1A3134910F43BA71E6 /* PCBC.swift */; };
+		E28FDC0F8C8302F20A4B8E436EF7E8FE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 96A99E1ED6492F91E6807B16994861C5 /* Foundation.framework */; };
+		E4B0B3F809273A83525B134B8E87EA81 /* QRCodeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DB9004F058BE51D055F7F87A6181539 /* QRCodeViewController.swift */; };
+		E6533A497782F9BFC60B775A5FF6BB5F /* UpdatableCryptor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E78F4770924780AE21BC0C276EBB625 /* UpdatableCryptor.swift */; };
+		EB7C9E2302F23C7825781DD4AD8682ED /* ECB.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB72C11E94C23DA9568F38F9A9CDCBE3 /* ECB.swift */; };
+		F1A0DF4E0BA606AFA1F35D152B6F0185 /* Pods-Cryptonite-iOS-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = AA42C45F9B78DC05ADEB4DE3B5214526 /* Pods-Cryptonite-iOS-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F279803FF9F94685C574A821A8C34D8E /* PKCS5.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F8B923D28ABC3CBAC6E8FD18103DE49 /* PKCS5.swift */; };
+		F5BC038DE10C5AEA4396CF6338225DE4 /* ReaderOverlayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C15015FA7767F6286B83F960A2E659FC /* ReaderOverlayView.swift */; };
+		F7E6D07DA95BAB4D746FB0EA2C6CE155 /* QRCodeReader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FAE0E8A5762335AE46B3F5F42E98F45 /* QRCodeReader.swift */; };
+		F9ED2CF064D48C15FCA42F1D895F897E /* Padding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AFC7D332B3CD8E6371BC8389DA5D0B5 /* Padding.swift */; };
+		FABAA79B9137282973E2F6766F4494D9 /* SHA2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D6E16945DBA15A5200FA38895EEE372 /* SHA2.swift */; };
+		FC7383FE8098B45B504B3EC79D26FF9C /* Generics.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C4BBA00042B155F2CB0D3D76A0C1BF9 /* Generics.swift */; };
+		FDD7AF679A62E7E89D2B7487C383B7DF /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54ABD9BA286A1890433A59FEC83B84DE /* Utils.swift */; };
+		FE682BCD4DAA328952914598E150D86D /* UInt32Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B6556DDC4B7834DE45A135EEA0E8B2F /* UInt32Extension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		F299CA580D29938794401001DFF828D3 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = BFBCDAE4131049BBA046ED4142B2C051;
-			remoteInfo = QRCodeReader.swift;
-		};
-		F76BAD70F1BBDAD77F61142FF8F00766 /* PBXContainerItemProxy */ = {
+		2E91EE1932A254876AB93569FC3E7B1E /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 30943B25F0DEC51D0012EB94E0670356;
 			remoteInfo = CryptoSwift;
 		};
+		50F1B1D1165B0F250FCED4D2E72567ED /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 842ABF020DB4F95B3F89A6D4BD2D3F96;
+			remoteInfo = QRCodeReader.swift;
+		};
+		7559D45AF76D40623C67D8A0C1903882 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4C64DFCD9DA861F8A6A1A380D13009C1;
+			remoteInfo = SwiftyJSON;
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		013379E7B5BDA7D6ABB448551AA325B9 /* CFB.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CFB.swift; path = Sources/CryptoSwift/BlockMode/CFB.swift; sourceTree = "<group>"; };
-		015B91D938A15AE5F00E381D10F61C96 /* Hash.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Hash.swift; path = Sources/CryptoSwift/Hash.swift; sourceTree = "<group>"; };
-		025C12EC90DF98E35838906C727E647C /* ChaCha20.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ChaCha20.swift; path = Sources/CryptoSwift/ChaCha20.swift; sourceTree = "<group>"; };
-		028E3C6CAF031EF01D95C1AF0A049A74 /* Pods_Cryptonite_iOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Cryptonite_iOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		0456156091B52A79707DBCC81C29B3F7 /* CBC.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CBC.swift; path = Sources/CryptoSwift/BlockMode/CBC.swift; sourceTree = "<group>"; };
-		0475B595A29DA1784BE0B630153A989A /* BlockModeOptions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BlockModeOptions.swift; path = Sources/CryptoSwift/BlockMode/BlockModeOptions.swift; sourceTree = "<group>"; };
+		045D9D802491CFE4AE16378006D42E31 /* MD5.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MD5.swift; path = Sources/CryptoSwift/MD5.swift; sourceTree = "<group>"; };
 		0670A99703814299BF3E32EAE2782B27 /* Pods-Cryptonite-iOSUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Cryptonite-iOSUITests-acknowledgements.plist"; sourceTree = "<group>"; };
-		06DB4AFE23D134CA657E9F7FAD10F063 /* Padding.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Padding.swift; path = Sources/CryptoSwift/Padding.swift; sourceTree = "<group>"; };
-		0D4129B06806B8D018934CBE0DBF5C26 /* NSData+Extension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "NSData+Extension.swift"; path = "Sources/CryptoSwift/Foundation/NSData+Extension.swift"; sourceTree = "<group>"; };
-		0E40374917BE250D0CF126A44A3F1F98 /* NoPadding.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NoPadding.swift; path = Sources/CryptoSwift/NoPadding.swift; sourceTree = "<group>"; };
+		0812397F39014B2A5D22BB98AF381E65 /* UInt64Extension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UInt64Extension.swift; path = Sources/CryptoSwift/UInt64Extension.swift; sourceTree = "<group>"; };
+		0C220A2E19EA7977589CEED7AE09CBAE /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0EA4C9935FF03D34F7A6FE94C806A99F /* Pods-Cryptonite-iOSTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Cryptonite-iOSTests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		13CFA655BADC6CC0CE7B6179591D81A2 /* Rabbit+Foundation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Rabbit+Foundation.swift"; path = "Sources/CryptoSwift/Foundation/Rabbit+Foundation.swift"; sourceTree = "<group>"; };
-		1D06E120F1447DC8592F8F5D0EE68D9E /* CryptoSwift-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CryptoSwift-umbrella.h"; sourceTree = "<group>"; };
-		1F157E6B1EA9773211B6F484C6E57DAE /* ReaderOverlayView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReaderOverlayView.swift; path = QRCodeReader/ReaderOverlayView.swift; sourceTree = "<group>"; };
+		10FD36FC1055467E3C0716F965D2EC92 /* SwiftyJSON.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwiftyJSON.swift; path = Source/SwiftyJSON.swift; sourceTree = "<group>"; };
+		165C17F04E44CA58C6AABAA42F702D8C /* ChaCha20+Foundation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "ChaCha20+Foundation.swift"; path = "Sources/CryptoSwift/Foundation/ChaCha20+Foundation.swift"; sourceTree = "<group>"; };
+		1761BF477A592A74EF014824183D29F3 /* IntExtension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = IntExtension.swift; path = Sources/CryptoSwift/IntExtension.swift; sourceTree = "<group>"; };
+		1B6556DDC4B7834DE45A135EEA0E8B2F /* UInt32Extension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UInt32Extension.swift; path = Sources/CryptoSwift/UInt32Extension.swift; sourceTree = "<group>"; };
 		1F4C2C5D9FDF24CB878ED4464D7DB376 /* Pods-Cryptonite-iOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Cryptonite-iOS.debug.xcconfig"; sourceTree = "<group>"; };
-		206C95E4D07D1B4F8C45A41EEAD4EEB5 /* PCBC.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PCBC.swift; path = Sources/CryptoSwift/BlockMode/PCBC.swift; sourceTree = "<group>"; };
-		222D7483232BFC031634337F8A1BC515 /* OFB.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = OFB.swift; path = Sources/CryptoSwift/BlockMode/OFB.swift; sourceTree = "<group>"; };
-		25167201AC4533CA48476A5AE4A0EAD8 /* Rabbit.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Rabbit.swift; path = Sources/CryptoSwift/Rabbit.swift; sourceTree = "<group>"; };
-		27B5EEF2920F5C7C317EADEC8153198B /* String+LinuxFoundation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "String+LinuxFoundation.swift"; path = "Sources/CryptoSwift/Foundation/String+LinuxFoundation.swift"; sourceTree = "<group>"; };
+		276F5B6C8182808F988A6CE88AA353CF /* NSData+Extension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "NSData+Extension.swift"; path = "Sources/CryptoSwift/Foundation/NSData+Extension.swift"; sourceTree = "<group>"; };
 		27CE8BD5F9DC1879601D803CB4E91E3D /* Pods-Cryptonite-iOSTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-Cryptonite-iOSTests.modulemap"; sourceTree = "<group>"; };
 		283836EF5A0AA5CDF757AD35B494F1FA /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/AVFoundation.framework; sourceTree = DEVELOPER_DIR; };
-		2D13D90F6837F820FB5D218B1F941F83 /* CTR.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CTR.swift; path = Sources/CryptoSwift/BlockMode/CTR.swift; sourceTree = "<group>"; };
-		310DF8F87D61EDE2BBCF9A86BA77FE66 /* QRCodeReader.swift-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "QRCodeReader.swift-umbrella.h"; sourceTree = "<group>"; };
-		34C383301DF45109C3EDC374457BB11B /* QRCodeReader.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = QRCodeReader.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		371BE97E8467FAF11E2234DA739E8602 /* String+Extension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "String+Extension.swift"; path = "Sources/CryptoSwift/String+Extension.swift"; sourceTree = "<group>"; };
-		3DBBAF48AB2792217DC8AAFF5B933D07 /* Utils+Foundation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Utils+Foundation.swift"; path = "Sources/CryptoSwift/Foundation/Utils+Foundation.swift"; sourceTree = "<group>"; };
-		3E98001BFC893254E0C4D4DCF5FD93FC /* Generics.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Generics.swift; path = Sources/CryptoSwift/Generics.swift; sourceTree = "<group>"; };
-		3F324FADDD55F28C4C8BB2B2BB69E99C /* PBKDF2.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PBKDF2.swift; path = Sources/CryptoSwift/PKCS5/PBKDF2.swift; sourceTree = "<group>"; };
+		2AC7F6B1EE43A0328FCD61375ABF6F1E /* PBKDF1.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PBKDF1.swift; path = Sources/CryptoSwift/PKCS5/PBKDF1.swift; sourceTree = "<group>"; };
+		2AFC7D332B3CD8E6371BC8389DA5D0B5 /* Padding.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Padding.swift; path = Sources/CryptoSwift/Padding.swift; sourceTree = "<group>"; };
+		2BB10F1EF8FBB39AA736366ACF1539CC /* SwiftyJSON.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SwiftyJSON.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2BDFCC8FA3B10FACB61AE7DC7750CBFB /* CRC.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CRC.swift; path = Sources/CryptoSwift/CRC.swift; sourceTree = "<group>"; };
+		2C4BBA00042B155F2CB0D3D76A0C1BF9 /* Generics.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Generics.swift; path = Sources/CryptoSwift/Generics.swift; sourceTree = "<group>"; };
+		2F8AD942206073FB4C0B181D794EA535 /* NoPadding.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NoPadding.swift; path = Sources/CryptoSwift/NoPadding.swift; sourceTree = "<group>"; };
+		32B8B20CA7F5C27855FFBD6F541F0952 /* HashProtocol.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HashProtocol.swift; path = Sources/CryptoSwift/HashProtocol.swift; sourceTree = "<group>"; };
+		37C5B7BF8AFA27937E9A81202F769C34 /* CSArrayType+Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "CSArrayType+Extensions.swift"; path = "Sources/CryptoSwift/CSArrayType+Extensions.swift"; sourceTree = "<group>"; };
+		38D4FA7C6F4C851A5E426C50FA609E61 /* Poly1305.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Poly1305.swift; path = Sources/CryptoSwift/Poly1305.swift; sourceTree = "<group>"; };
+		3ED71E1AC08B1A537AAF98F6442735AE /* CryptoSwift-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CryptoSwift-prefix.pch"; sourceTree = "<group>"; };
 		40599587EB24AE794D05C75BCC8315C8 /* Pods-Cryptonite-iOS-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Cryptonite-iOS-frameworks.sh"; sourceTree = "<group>"; };
-		41A1BF4402CEE27E409E474D47B17A84 /* ChaCha20+Foundation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "ChaCha20+Foundation.swift"; path = "Sources/CryptoSwift/Foundation/ChaCha20+Foundation.swift"; sourceTree = "<group>"; };
-		41F5CACF844D1AB45DAA8B08EED16F49 /* Pods_Cryptonite_iOSTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Cryptonite_iOSTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		40BF0ACECC066FD9E7124EDC2CADC595 /* PBKDF2.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PBKDF2.swift; path = Sources/CryptoSwift/PKCS5/PBKDF2.swift; sourceTree = "<group>"; };
+		41DBB37572BD892908C2F18E7764C2AD /* HMAC.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HMAC.swift; path = Sources/CryptoSwift/HMAC.swift; sourceTree = "<group>"; };
 		4459C04D89C63E68A695649DD0E40DCE /* Pods-Cryptonite-iOSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Cryptonite-iOSTests.debug.xcconfig"; sourceTree = "<group>"; };
 		449B8351ED316257EF015FDD9AD55A9A /* Pods-Cryptonite-iOSTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Cryptonite-iOSTests-acknowledgements.plist"; sourceTree = "<group>"; };
-		48CDC1AB322FE5502E0B1E2A6E4BDA31 /* ToggleTorchButton.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ToggleTorchButton.swift; path = QRCodeReader/ToggleTorchButton.swift; sourceTree = "<group>"; };
-		4D6892B3CA3F35A3C5EF817B2767FB2E /* CryptoSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CryptoSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		4E2AE3B77F8B9F5CF584E27BFC268EF7 /* Cipher.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Cipher.swift; path = Sources/CryptoSwift/Cipher.swift; sourceTree = "<group>"; };
-		4EF6F77A0091DF643C914BFE3F54F4B1 /* BlockModeWorker.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BlockModeWorker.swift; path = Sources/CryptoSwift/BlockMode/BlockModeWorker.swift; sourceTree = "<group>"; };
-		4F06B537F8A8EDAC72696C3283CD6A94 /* Bit.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Bit.swift; path = Sources/CryptoSwift/Bit.swift; sourceTree = "<group>"; };
-		4FF74117BF3847B64EE5151E4EC9A048 /* BytesSequence.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BytesSequence.swift; path = Sources/CryptoSwift/BytesSequence.swift; sourceTree = "<group>"; };
-		528E036429E14C5960BFE14911FF92B4 /* QRCodeReader.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = QRCodeReader.swift; path = QRCodeReader/QRCodeReader.swift; sourceTree = "<group>"; };
+		45FD43CE39D9A69BCAAB8D871F788998 /* AES+Foundation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "AES+Foundation.swift"; path = "Sources/CryptoSwift/Foundation/AES+Foundation.swift"; sourceTree = "<group>"; };
+		492B068C8A578F1656B6C387C1EC2E52 /* OFB.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = OFB.swift; path = Sources/CryptoSwift/BlockMode/OFB.swift; sourceTree = "<group>"; };
+		4B138200B7E74EFEB0973D9D2A4A42D6 /* CryptoSwift-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CryptoSwift-umbrella.h"; sourceTree = "<group>"; };
+		4CEED8D71058F41DC84DCD6AE54FDACD /* Cipher.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Cipher.swift; path = Sources/CryptoSwift/Cipher.swift; sourceTree = "<group>"; };
+		4D685B70E59884F7C629809EC96125DC /* CryptoSwift.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CryptoSwift.xcconfig; sourceTree = "<group>"; };
+		4DB9004F058BE51D055F7F87A6181539 /* QRCodeViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = QRCodeViewController.swift; path = QRCodeReader/QRCodeViewController.swift; sourceTree = "<group>"; };
 		52B9813917C45FA9DFDFD3752EE99573 /* Pods-Cryptonite-iOS-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Cryptonite-iOS-resources.sh"; sourceTree = "<group>"; };
 		5354DDE940F994AF8AE87D06B4814266 /* Pods-Cryptonite-iOS-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Cryptonite-iOS-acknowledgements.plist"; sourceTree = "<group>"; };
-		5516F9A95E44108C671FFFF83134650A /* PKCS5.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PKCS5.swift; path = Sources/CryptoSwift/PKCS5/PKCS5.swift; sourceTree = "<group>"; };
-		5546BDFB4A118E9787ACF5EF0E793B33 /* Multiplatform.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Multiplatform.swift; path = Sources/CryptoSwift/Multiplatform.swift; sourceTree = "<group>"; };
-		567F6B53FF7A77E20FD9A0EE7C913009 /* QRCodeViewControllerBuilder.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = QRCodeViewControllerBuilder.swift; path = QRCodeReader/QRCodeViewControllerBuilder.swift; sourceTree = "<group>"; };
-		59EBF83D670B2D02963026A3C87C9891 /* PKCS7.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PKCS7.swift; path = Sources/CryptoSwift/PKCS7.swift; sourceTree = "<group>"; };
-		5D730170B6FF866C9948D0028AAE9E11 /* Poly1305.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Poly1305.swift; path = Sources/CryptoSwift/Poly1305.swift; sourceTree = "<group>"; };
-		5E9FAF2F841A706F98F695C6741BF066 /* Authenticator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Authenticator.swift; path = Sources/CryptoSwift/Authenticator.swift; sourceTree = "<group>"; };
-		60BD6B115B7966F32BE00217B71352C8 /* QRCodeReaderResult.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = QRCodeReaderResult.swift; path = QRCodeReader/QRCodeReaderResult.swift; sourceTree = "<group>"; };
-		619AFEC90028DCCBFA4A8284ADA1D203 /* SHA1.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SHA1.swift; path = Sources/CryptoSwift/SHA1.swift; sourceTree = "<group>"; };
-		62E0C103CF7CDBA9BE7AA1723C7B2009 /* PBKDF1.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PBKDF1.swift; path = Sources/CryptoSwift/PKCS5/PBKDF1.swift; sourceTree = "<group>"; };
-		64C213B04E0D12BE53A446F9C072E592 /* SwitchCameraButton.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwitchCameraButton.swift; path = QRCodeReader/SwitchCameraButton.swift; sourceTree = "<group>"; };
+		54ABD9BA286A1890433A59FEC83B84DE /* Utils.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Utils.swift; path = Sources/CryptoSwift/Utils.swift; sourceTree = "<group>"; };
+		59BEA51867007CFBC3C85BD5FAF09511 /* SwitchCameraButton.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwitchCameraButton.swift; path = QRCodeReader/SwitchCameraButton.swift; sourceTree = "<group>"; };
+		5A975B72E46C519E50876F662732EFE6 /* BytesSequence.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BytesSequence.swift; path = Sources/CryptoSwift/BytesSequence.swift; sourceTree = "<group>"; };
+		5C3CA0F2126F4E7B13C06119B0E4789D /* CTR.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CTR.swift; path = Sources/CryptoSwift/BlockMode/CTR.swift; sourceTree = "<group>"; };
+		5E78F4770924780AE21BC0C276EBB625 /* UpdatableCryptor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UpdatableCryptor.swift; path = Sources/CryptoSwift/UpdatableCryptor.swift; sourceTree = "<group>"; };
+		5F8B923D28ABC3CBAC6E8FD18103DE49 /* PKCS5.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PKCS5.swift; path = Sources/CryptoSwift/PKCS5/PKCS5.swift; sourceTree = "<group>"; };
+		625E131AF56130A14F65AF6268CB9EC5 /* Operators.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Operators.swift; path = Sources/CryptoSwift/Operators.swift; sourceTree = "<group>"; };
 		67C06AF4CCCA37C18E877D44C89AC7BD /* Pods-Cryptonite-iOSTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Cryptonite-iOSTests-frameworks.sh"; sourceTree = "<group>"; };
 		680ED7023CAE4F52611C1262CC5204B3 /* Pods-Cryptonite-iOSUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-Cryptonite-iOSUITests.modulemap"; sourceTree = "<group>"; };
-		6918A6B6A54F8DE55FE8832EEB41E80B /* AES+Foundation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "AES+Foundation.swift"; path = "Sources/CryptoSwift/Foundation/AES+Foundation.swift"; sourceTree = "<group>"; };
-		72E0F1F3C3FD0C6143ED889ABE42747C /* QRCodeReader.swift.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = QRCodeReader.swift.xcconfig; sourceTree = "<group>"; };
-		74AB1921F137154ECA23EF373A7D83CE /* CryptoSwift-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CryptoSwift-dummy.m"; sourceTree = "<group>"; };
-		75D32B1DB14A812798E01748AF90956D /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		7607827B27316C4447E7890B09D94AC0 /* HashProtocol.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HashProtocol.swift; path = Sources/CryptoSwift/HashProtocol.swift; sourceTree = "<group>"; };
-		7DAFAB811EC5D9FAF85074AD44531A31 /* Utils.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Utils.swift; path = Sources/CryptoSwift/Utils.swift; sourceTree = "<group>"; };
-		80699EA8BDA3090B76B26D0CB74BF5CC /* CryptoSwift.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = CryptoSwift.modulemap; sourceTree = "<group>"; };
-		83F82048F9F6BB62F9493C5A54584417 /* CryptoSwift-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CryptoSwift-prefix.pch"; sourceTree = "<group>"; };
-		86B86A5FEFF756AD9AB5EA7976ADB125 /* Pods_Cryptonite_iOSUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Cryptonite_iOSUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		88995BB6F2AA00EDFCAE0B66C3240819 /* UInt32Extension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UInt32Extension.swift; path = Sources/CryptoSwift/UInt32Extension.swift; sourceTree = "<group>"; };
-		8AC0C1F48F77CD3A73A47AC85D1EBBF9 /* QRCodeViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = QRCodeViewController.swift; path = QRCodeReader/QRCodeViewController.swift; sourceTree = "<group>"; };
-		8EBA5F1B17714146FD053548B00277A2 /* CryptoSwift.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CryptoSwift.xcconfig; sourceTree = "<group>"; };
-		8F746A9CB93BA5F68844059B053CEA01 /* Cryptors.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Cryptors.swift; path = Sources/CryptoSwift/Cryptors.swift; sourceTree = "<group>"; };
-		8FAFEC969D2EC8044B5658B01A1BD160 /* ECB.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ECB.swift; path = Sources/CryptoSwift/BlockMode/ECB.swift; sourceTree = "<group>"; };
+		6B7EF7A86F36E9F90BFFE41432225258 /* PKCS7.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PKCS7.swift; path = Sources/CryptoSwift/PKCS7.swift; sourceTree = "<group>"; };
+		7DFF620C77D37A1A3134910F43BA71E6 /* PCBC.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PCBC.swift; path = Sources/CryptoSwift/BlockMode/PCBC.swift; sourceTree = "<group>"; };
+		81576B10DA19882A820153159EEEB6C0 /* CryptoSwift.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = CryptoSwift.modulemap; sourceTree = "<group>"; };
+		821607B376440773BC5DDFEA277DA54B /* SHA1.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SHA1.swift; path = Sources/CryptoSwift/SHA1.swift; sourceTree = "<group>"; };
+		865441BFE255166F485ADA7649CC5650 /* ChaCha20.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ChaCha20.swift; path = Sources/CryptoSwift/ChaCha20.swift; sourceTree = "<group>"; };
+		86E7FE0C07B360C82F867ADE7750E273 /* Array+Extension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Array+Extension.swift"; path = "Sources/CryptoSwift/Array+Extension.swift"; sourceTree = "<group>"; };
+		89C9696A0F7AA119E32E1E22E03500E0 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8DD7E41EA8A68C7CC6196C324F46CA7E /* QRCodeReader.swift-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "QRCodeReader.swift-prefix.pch"; sourceTree = "<group>"; };
+		8FAE0E8A5762335AE46B3F5F42E98F45 /* QRCodeReader.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = QRCodeReader.swift; path = QRCodeReader/QRCodeReader.swift; sourceTree = "<group>"; };
 		90406CB9BA3A5BFF2E1A987394B9EA4D /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		9068E9DB878A4ADAE6DF89316C1B451D /* AES.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AES.swift; path = Sources/CryptoSwift/AES.swift; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		96A99E1ED6492F91E6807B16994861C5 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		97C17651C759970A4E45C1527AE86A2D /* SecureBytes.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SecureBytes.swift; path = Sources/CryptoSwift/SecureBytes.swift; sourceTree = "<group>"; };
+		9D6E16945DBA15A5200FA38895EEE372 /* SHA2.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SHA2.swift; path = Sources/CryptoSwift/SHA2.swift; sourceTree = "<group>"; };
+		9EF834EAEF2E28A46D3C6E66DAF58866 /* SwiftyJSON.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = SwiftyJSON.modulemap; sourceTree = "<group>"; };
 		A1D8349649A18E1CA419137D3824EC10 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		A4C0446C1B6EB174C2660E7B9626ADA2 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		A58830359F58C5060B52A7BE6496BC53 /* MD5.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MD5.swift; path = Sources/CryptoSwift/MD5.swift; sourceTree = "<group>"; };
-		A63B83C0B39911CCAEDD376A7E093242 /* IntegerConvertible.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = IntegerConvertible.swift; path = Sources/CryptoSwift/IntegerConvertible.swift; sourceTree = "<group>"; };
+		A41034C21D4DFF4A0B57C86EDDAC29C8 /* BlockModeOptions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BlockModeOptions.swift; path = Sources/CryptoSwift/BlockMode/BlockModeOptions.swift; sourceTree = "<group>"; };
+		A5743A333AA723DD68D824B595B70A97 /* CryptoSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CryptoSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A7A7C0C1BC219068E733C6A85D827BF6 /* String+Extension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "String+Extension.swift"; path = "Sources/CryptoSwift/String+Extension.swift"; sourceTree = "<group>"; };
 		A8C5423A77ED63543338728001720FEF /* Pods-Cryptonite-iOSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Cryptonite-iOSTests.release.xcconfig"; sourceTree = "<group>"; };
-		A93B171762EEC0ABED183E1949032686 /* CSArrayType+Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "CSArrayType+Extensions.swift"; path = "Sources/CryptoSwift/CSArrayType+Extensions.swift"; sourceTree = "<group>"; };
+		A92919F86DC4DED2B4A38511DDCF3AD7 /* Bit.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Bit.swift; path = Sources/CryptoSwift/Bit.swift; sourceTree = "<group>"; };
 		AA42C45F9B78DC05ADEB4DE3B5214526 /* Pods-Cryptonite-iOS-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Cryptonite-iOS-umbrella.h"; sourceTree = "<group>"; };
-		AAC2326CAEE8C5CBF78E3C40853273C9 /* String+FoundationExtension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "String+FoundationExtension.swift"; path = "Sources/CryptoSwift/Foundation/String+FoundationExtension.swift"; sourceTree = "<group>"; };
+		AB4A86B2594C8170A480DEE99C73B050 /* QRCodeReaderResult.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = QRCodeReaderResult.swift; path = QRCodeReader/QRCodeReaderResult.swift; sourceTree = "<group>"; };
+		AB72C11E94C23DA9568F38F9A9CDCBE3 /* ECB.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ECB.swift; path = Sources/CryptoSwift/BlockMode/ECB.swift; sourceTree = "<group>"; };
+		ABCAB3D6D9DB36E65801EAD88790031F /* QRCodeViewControllerBuilder.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = QRCodeViewControllerBuilder.swift; path = QRCodeReader/QRCodeViewControllerBuilder.swift; sourceTree = "<group>"; };
+		ABD20F1E54CE233B001FD6DC645A96B9 /* BlockMode.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BlockMode.swift; path = Sources/CryptoSwift/BlockMode/BlockMode.swift; sourceTree = "<group>"; };
+		AE386A19304A59F389912F11792EDC81 /* QRCodeReader.swift-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "QRCodeReader.swift-dummy.m"; sourceTree = "<group>"; };
 		AECA2E4DE162FF8F5286C9CE9AD9E46B /* Pods-Cryptonite-iOS-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Cryptonite-iOS-dummy.m"; sourceTree = "<group>"; };
-		B15E85DD2CF8BCFF24E2500831A93357 /* Operators.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Operators.swift; path = Sources/CryptoSwift/Operators.swift; sourceTree = "<group>"; };
+		B06EC187883E147127508075F8904268 /* UInt8Extension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UInt8Extension.swift; path = Sources/CryptoSwift/UInt8Extension.swift; sourceTree = "<group>"; };
 		B1E2030D0DC3420CD39F069B43959C12 /* Pods-Cryptonite-iOSUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Cryptonite-iOSUITests-dummy.m"; sourceTree = "<group>"; };
+		B3B4DD3AF47ACC58FF2EDB86EDFF4762 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B3D62E64B053F0040B372CCC42CFB9D8 /* BlockCipher.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BlockCipher.swift; path = Sources/CryptoSwift/BlockCipher.swift; sourceTree = "<group>"; };
+		B94CC7F9C7FAB80C68B7C11046BDD027 /* QRCodeReader.swift-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "QRCodeReader.swift-umbrella.h"; sourceTree = "<group>"; };
 		BA680D3E46D47EC1D940B36AC3725795 /* Pods-Cryptonite-iOSUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Cryptonite-iOSUITests.debug.xcconfig"; sourceTree = "<group>"; };
-		BAAA21A4968B4ACC23EC20AB8306E5F6 /* SHA2.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SHA2.swift; path = Sources/CryptoSwift/SHA2.swift; sourceTree = "<group>"; };
 		BDAF9D1F011654B051D70E733C8F6D44 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C15015FA7767F6286B83F960A2E659FC /* ReaderOverlayView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReaderOverlayView.swift; path = QRCodeReader/ReaderOverlayView.swift; sourceTree = "<group>"; };
 		C1FC0173841ABC674E0E580ADF156BFE /* Pods-Cryptonite-iOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Cryptonite-iOS.release.xcconfig"; sourceTree = "<group>"; };
+		C2755EA0AFD1545CEA61B1DF675632C1 /* SwiftyJSON-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftyJSON-umbrella.h"; sourceTree = "<group>"; };
+		C446982E5ADC0415FD8ACE4946CA2E6A /* QRCodeReader.swift.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = QRCodeReader.swift.xcconfig; sourceTree = "<group>"; };
 		C46130F28268C3170A1B054B3A69B395 /* Pods-Cryptonite-iOSTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Cryptonite-iOSTests-resources.sh"; sourceTree = "<group>"; };
-		C669581F69209F09584B6C4CA8D427FA /* CRC.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CRC.swift; path = Sources/CryptoSwift/CRC.swift; sourceTree = "<group>"; };
-		CC3B94C50D69221B2DB94FAB898C5010 /* HMAC.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HMAC.swift; path = Sources/CryptoSwift/HMAC.swift; sourceTree = "<group>"; };
+		CA4471C8AFAF1D24481B42917CC87839 /* CSArrayType+Foundation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "CSArrayType+Foundation.swift"; path = "Sources/CryptoSwift/Foundation/CSArrayType+Foundation.swift"; sourceTree = "<group>"; };
 		CEE498E0E89A38BC72DD84EAF48EF487 /* Pods-Cryptonite-iOSTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Cryptonite-iOSTests-umbrella.h"; sourceTree = "<group>"; };
+		CF53DB5B69A5BAB7F13C10F40D824884 /* Multiplatform.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Multiplatform.swift; path = Sources/CryptoSwift/Multiplatform.swift; sourceTree = "<group>"; };
 		CFBD321CAE59F979AD85153FA69F918B /* Pods-Cryptonite-iOSTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Cryptonite-iOSTests-dummy.m"; sourceTree = "<group>"; };
 		CFE0CD2B71314D078012E0CE38A22141 /* Pods-Cryptonite-iOSUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Cryptonite-iOSUITests-umbrella.h"; sourceTree = "<group>"; };
+		D0FC7696984B719192C27BB613EFCDE0 /* AES.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AES.swift; path = Sources/CryptoSwift/AES.swift; sourceTree = "<group>"; };
+		D129B15A077DB6434416DAA596B01DC4 /* ToggleTorchButton.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ToggleTorchButton.swift; path = QRCodeReader/ToggleTorchButton.swift; sourceTree = "<group>"; };
+		D47F69651CE2D66E39DE47A4F9BAD7FB /* ArrayUInt8+Foundation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "ArrayUInt8+Foundation.swift"; path = "Sources/CryptoSwift/Foundation/ArrayUInt8+Foundation.swift"; sourceTree = "<group>"; };
 		D7DA532102082B071B75FE19D289A5C8 /* Pods-Cryptonite-iOSUITests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Cryptonite-iOSUITests-resources.sh"; sourceTree = "<group>"; };
-		D954DB1F0CD292F15A902FF5E0B5A31E /* IntExtension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = IntExtension.swift; path = Sources/CryptoSwift/IntExtension.swift; sourceTree = "<group>"; };
-		DD2E397BFDAD5B2A0AC545406ABC45DE /* CSArrayType+Foundation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "CSArrayType+Foundation.swift"; path = "Sources/CryptoSwift/Foundation/CSArrayType+Foundation.swift"; sourceTree = "<group>"; };
-		DDE8D00138CA15D746BDA46E39D558FD /* BlockCipher.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BlockCipher.swift; path = Sources/CryptoSwift/BlockCipher.swift; sourceTree = "<group>"; };
+		D961208806D9884F09D092F0495BD3F0 /* Rabbit+Foundation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Rabbit+Foundation.swift"; path = "Sources/CryptoSwift/Foundation/Rabbit+Foundation.swift"; sourceTree = "<group>"; };
+		DB0963C5A5A0DF0D4466DA43EE06F139 /* Rabbit.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Rabbit.swift; path = Sources/CryptoSwift/Rabbit.swift; sourceTree = "<group>"; };
 		DED2D34284D86884B88D66B75D7E649A /* Pods-Cryptonite-iOSUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Cryptonite-iOSUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		E4C95397048AA282E0502433BAD2C487 /* BlockMode.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BlockMode.swift; path = Sources/CryptoSwift/BlockMode/BlockMode.swift; sourceTree = "<group>"; };
-		E8A77B798BA1BBC04B13C693FC9556A5 /* UpdatableCryptor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UpdatableCryptor.swift; path = Sources/CryptoSwift/UpdatableCryptor.swift; sourceTree = "<group>"; };
+		E1A27A60BEACBF4D42F428D30B1071E5 /* CBC.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CBC.swift; path = Sources/CryptoSwift/BlockMode/CBC.swift; sourceTree = "<group>"; };
+		E2C4A9F3B03397A7F0B624D777BF4C83 /* IntegerConvertible.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = IntegerConvertible.swift; path = Sources/CryptoSwift/IntegerConvertible.swift; sourceTree = "<group>"; };
+		E4F558F58BA3F107E39AD54D1E541948 /* Pods_Cryptonite_iOSTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Cryptonite_iOSTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E71A49899852A6017BEB8FF6F6EDD83D /* SecureBytes.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SecureBytes.swift; path = Sources/CryptoSwift/SecureBytes.swift; sourceTree = "<group>"; };
+		E81F362BA1EBBA8F3B67E1AC92EE3DEF /* Hash.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Hash.swift; path = Sources/CryptoSwift/Hash.swift; sourceTree = "<group>"; };
+		E8E241D624D4B4EDD546A5DE9A2FB12A /* QRCodeReader.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = QRCodeReader.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E8E6600C8B559129C9CC8A7FC4B0BE0A /* Authenticator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Authenticator.swift; path = Sources/CryptoSwift/Authenticator.swift; sourceTree = "<group>"; };
 		E92031460C13F0FA21390A7476F45407 /* Pods-Cryptonite-iOSUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Cryptonite-iOSUITests.release.xcconfig"; sourceTree = "<group>"; };
-		E9DB5A1BA7BFFEB64B25806425838D13 /* QRCodeReader.swift.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = QRCodeReader.swift.modulemap; sourceTree = "<group>"; };
-		EBE0AC7C524A5985BDBADD0F2F48CCA9 /* UInt64Extension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UInt64Extension.swift; path = Sources/CryptoSwift/UInt64Extension.swift; sourceTree = "<group>"; };
+		E9585E40117F506EF67A669D2A4B2666 /* Pods_Cryptonite_iOSUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Cryptonite_iOSUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC33A852CDD855E876B300EFE56DCA2E /* Cryptors.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Cryptors.swift; path = Sources/CryptoSwift/Cryptors.swift; sourceTree = "<group>"; };
 		EC476562B26E21E1E264090996BC5E48 /* Pods-Cryptonite-iOS-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Cryptonite-iOS-acknowledgements.markdown"; sourceTree = "<group>"; };
-		EED9BB41AA8FA05408DEF568283C7531 /* QRCodeReader.swift-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "QRCodeReader.swift-dummy.m"; sourceTree = "<group>"; };
+		EC8CDC4D4A55E42F9887FA60D0F04162 /* CFB.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CFB.swift; path = Sources/CryptoSwift/BlockMode/CFB.swift; sourceTree = "<group>"; };
+		EEE341858ACD3AE6352D26F538EAF011 /* SwiftyJSON-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftyJSON-prefix.pch"; sourceTree = "<group>"; };
 		EF0FC46A9D16B19BFDE65912F0318718 /* Pods-Cryptonite-iOS.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-Cryptonite-iOS.modulemap"; sourceTree = "<group>"; };
-		F432B5ACB5183F32B2A644BF40C1D0C5 /* QRCodeReader.swift-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "QRCodeReader.swift-prefix.pch"; sourceTree = "<group>"; };
-		FA6D308C36C4B1F7F4D21094ADDACC99 /* Array+Extension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Array+Extension.swift"; path = "Sources/CryptoSwift/Array+Extension.swift"; sourceTree = "<group>"; };
-		FBABC57F7356865108F528A631B846B4 /* ArrayUInt8+Foundation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "ArrayUInt8+Foundation.swift"; path = "Sources/CryptoSwift/Foundation/ArrayUInt8+Foundation.swift"; sourceTree = "<group>"; };
-		FC3D792D6521E01FC783C52C5E93AE8A /* UInt8Extension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UInt8Extension.swift; path = Sources/CryptoSwift/UInt8Extension.swift; sourceTree = "<group>"; };
+		F068A2E637F1982B828721EBDD5BC535 /* QRCodeReader.swift.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = QRCodeReader.swift.modulemap; sourceTree = "<group>"; };
+		F10B4830C8018AD5520B4B2C1DCF46BC /* SwiftyJSON-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SwiftyJSON-dummy.m"; sourceTree = "<group>"; };
+		F11C5CDF6D65BD5A0E77DAACAC71D5D3 /* String+LinuxFoundation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "String+LinuxFoundation.swift"; path = "Sources/CryptoSwift/Foundation/String+LinuxFoundation.swift"; sourceTree = "<group>"; };
+		F507612D5821E1052C4A6F557222852C /* CryptoSwift-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CryptoSwift-dummy.m"; sourceTree = "<group>"; };
+		F8680F9B5FCDD2FC781D737FB18238E8 /* BlockModeWorker.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BlockModeWorker.swift; path = Sources/CryptoSwift/BlockMode/BlockModeWorker.swift; sourceTree = "<group>"; };
+		FA070FD1ED6EDBF368CC41EED3044A89 /* Pods_Cryptonite_iOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Cryptonite_iOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FC433C0F6B639CEFAC331BFB7A872A6A /* String+FoundationExtension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "String+FoundationExtension.swift"; path = "Sources/CryptoSwift/Foundation/String+FoundationExtension.swift"; sourceTree = "<group>"; };
+		FC68C104E218F847ADD6DC368379E8DF /* Utils+Foundation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Utils+Foundation.swift"; path = "Sources/CryptoSwift/Foundation/Utils+Foundation.swift"; sourceTree = "<group>"; };
+		FDF8675BCFD596A68F5517A9D7754409 /* SwiftyJSON.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SwiftyJSON.xcconfig; sourceTree = "<group>"; };
 		FFEAAE4DA9915AE26ECD936D8D02242E /* Pods-Cryptonite-iOSUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Cryptonite-iOSUITests-frameworks.sh"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		3332335E37FE7B91B5C032979ED907EF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1E0313D1DCEF697D975E3085A90DB93C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		3F134DEA4A5E9C84CEAFEC9437B1422F /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -228,11 +255,12 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		41DF47E13AD952F960FCF95249126C9F /* Frameworks */ = {
+		72D16D3C079D079301EA057F24B96C46 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E5C889F0CF699628C94FA63CB7908865 /* Foundation.framework in Frameworks */,
+				CC5E2EF6A44CEF18D17DAF99969B4D20 /* AVFoundation.framework in Frameworks */,
+				C860FC2AB97D06E654A7E51DAED3D6FB /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -252,18 +280,80 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D04A8B9C826D60C0568B1C4B6F6D0757 /* Frameworks */ = {
+		D690320CF82000397DC284D2FA066F44 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4D039AFD9F5CD2EF82A0187D9046C4C8 /* AVFoundation.framework in Frameworks */,
-				D725D80C8F1AF3DB63283F8EA71EB8A9 /* Foundation.framework in Frameworks */,
+				E28FDC0F8C8302F20A4B8E436EF7E8FE /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		25FF7C9C0E2DA2C8C3382C285FB3FCC3 /* CryptoSwift */ = {
+			isa = PBXGroup;
+			children = (
+				D0FC7696984B719192C27BB613EFCDE0 /* AES.swift */,
+				45FD43CE39D9A69BCAAB8D871F788998 /* AES+Foundation.swift */,
+				86E7FE0C07B360C82F867ADE7750E273 /* Array+Extension.swift */,
+				D47F69651CE2D66E39DE47A4F9BAD7FB /* ArrayUInt8+Foundation.swift */,
+				E8E6600C8B559129C9CC8A7FC4B0BE0A /* Authenticator.swift */,
+				A92919F86DC4DED2B4A38511DDCF3AD7 /* Bit.swift */,
+				B3D62E64B053F0040B372CCC42CFB9D8 /* BlockCipher.swift */,
+				ABD20F1E54CE233B001FD6DC645A96B9 /* BlockMode.swift */,
+				A41034C21D4DFF4A0B57C86EDDAC29C8 /* BlockModeOptions.swift */,
+				F8680F9B5FCDD2FC781D737FB18238E8 /* BlockModeWorker.swift */,
+				5A975B72E46C519E50876F662732EFE6 /* BytesSequence.swift */,
+				E1A27A60BEACBF4D42F428D30B1071E5 /* CBC.swift */,
+				EC8CDC4D4A55E42F9887FA60D0F04162 /* CFB.swift */,
+				865441BFE255166F485ADA7649CC5650 /* ChaCha20.swift */,
+				165C17F04E44CA58C6AABAA42F702D8C /* ChaCha20+Foundation.swift */,
+				4CEED8D71058F41DC84DCD6AE54FDACD /* Cipher.swift */,
+				2BDFCC8FA3B10FACB61AE7DC7750CBFB /* CRC.swift */,
+				EC33A852CDD855E876B300EFE56DCA2E /* Cryptors.swift */,
+				37C5B7BF8AFA27937E9A81202F769C34 /* CSArrayType+Extensions.swift */,
+				CA4471C8AFAF1D24481B42917CC87839 /* CSArrayType+Foundation.swift */,
+				5C3CA0F2126F4E7B13C06119B0E4789D /* CTR.swift */,
+				AB72C11E94C23DA9568F38F9A9CDCBE3 /* ECB.swift */,
+				2C4BBA00042B155F2CB0D3D76A0C1BF9 /* Generics.swift */,
+				E81F362BA1EBBA8F3B67E1AC92EE3DEF /* Hash.swift */,
+				32B8B20CA7F5C27855FFBD6F541F0952 /* HashProtocol.swift */,
+				41DBB37572BD892908C2F18E7764C2AD /* HMAC.swift */,
+				E2C4A9F3B03397A7F0B624D777BF4C83 /* IntegerConvertible.swift */,
+				1761BF477A592A74EF014824183D29F3 /* IntExtension.swift */,
+				045D9D802491CFE4AE16378006D42E31 /* MD5.swift */,
+				CF53DB5B69A5BAB7F13C10F40D824884 /* Multiplatform.swift */,
+				2F8AD942206073FB4C0B181D794EA535 /* NoPadding.swift */,
+				276F5B6C8182808F988A6CE88AA353CF /* NSData+Extension.swift */,
+				492B068C8A578F1656B6C387C1EC2E52 /* OFB.swift */,
+				625E131AF56130A14F65AF6268CB9EC5 /* Operators.swift */,
+				2AFC7D332B3CD8E6371BC8389DA5D0B5 /* Padding.swift */,
+				2AC7F6B1EE43A0328FCD61375ABF6F1E /* PBKDF1.swift */,
+				40BF0ACECC066FD9E7124EDC2CADC595 /* PBKDF2.swift */,
+				7DFF620C77D37A1A3134910F43BA71E6 /* PCBC.swift */,
+				5F8B923D28ABC3CBAC6E8FD18103DE49 /* PKCS5.swift */,
+				6B7EF7A86F36E9F90BFFE41432225258 /* PKCS7.swift */,
+				38D4FA7C6F4C851A5E426C50FA609E61 /* Poly1305.swift */,
+				DB0963C5A5A0DF0D4466DA43EE06F139 /* Rabbit.swift */,
+				D961208806D9884F09D092F0495BD3F0 /* Rabbit+Foundation.swift */,
+				E71A49899852A6017BEB8FF6F6EDD83D /* SecureBytes.swift */,
+				821607B376440773BC5DDFEA277DA54B /* SHA1.swift */,
+				9D6E16945DBA15A5200FA38895EEE372 /* SHA2.swift */,
+				A7A7C0C1BC219068E733C6A85D827BF6 /* String+Extension.swift */,
+				FC433C0F6B639CEFAC331BFB7A872A6A /* String+FoundationExtension.swift */,
+				F11C5CDF6D65BD5A0E77DAACAC71D5D3 /* String+LinuxFoundation.swift */,
+				1B6556DDC4B7834DE45A135EEA0E8B2F /* UInt32Extension.swift */,
+				0812397F39014B2A5D22BB98AF381E65 /* UInt64Extension.swift */,
+				B06EC187883E147127508075F8904268 /* UInt8Extension.swift */,
+				5E78F4770924780AE21BC0C276EBB625 /* UpdatableCryptor.swift */,
+				54ABD9BA286A1890433A59FEC83B84DE /* Utils.swift */,
+				FC68C104E218F847ADD6DC368379E8DF /* Utils+Foundation.swift */,
+				4CC3A6BE1258471CC20EB95E83B792E1 /* Support Files */,
+			);
+			path = CryptoSwift;
+			sourceTree = "<group>";
+		};
 		2BD4A19F4EE5E20822F2AD4C9ECB2039 /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -272,6 +362,16 @@
 				452076263C082215B75DD6E5C0DAB96D /* Pods-Cryptonite-iOSUITests */,
 			);
 			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		328EB4344C8AEB827BD6649274F535A2 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				25FF7C9C0E2DA2C8C3382C285FB3FCC3 /* CryptoSwift */,
+				869AE6068D39D861DC172994F8FB0632 /* QRCodeReader.swift */,
+				D1E8C4946F394C595B889E6C7D1EA2D9 /* SwiftyJSON */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 		433CD3331B6C3787F473C941B61FC68F /* Frameworks */ = {
@@ -300,6 +400,20 @@
 			path = "Target Support Files/Pods-Cryptonite-iOSUITests";
 			sourceTree = "<group>";
 		};
+		4CC3A6BE1258471CC20EB95E83B792E1 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				81576B10DA19882A820153159EEEB6C0 /* CryptoSwift.modulemap */,
+				4D685B70E59884F7C629809EC96125DC /* CryptoSwift.xcconfig */,
+				F507612D5821E1052C4A6F557222852C /* CryptoSwift-dummy.m */,
+				3ED71E1AC08B1A537AAF98F6442735AE /* CryptoSwift-prefix.pch */,
+				4B138200B7E74EFEB0973D9D2A4A42D6 /* CryptoSwift-umbrella.h */,
+				B3B4DD3AF47ACC58FF2EDB86EDFF4762 /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/CryptoSwift";
+			sourceTree = "<group>";
+		};
 		4F91C40690436439F8115E85F6F03A15 /* Pods-Cryptonite-iOS */ = {
 			isa = PBXGroup;
 			children = (
@@ -318,119 +432,58 @@
 			path = "Target Support Files/Pods-Cryptonite-iOS";
 			sourceTree = "<group>";
 		};
-		52DADC3B0BE89FDBEE3D33A6CCF9BBEE /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				75D32B1DB14A812798E01748AF90956D /* Info.plist */,
-				E9DB5A1BA7BFFEB64B25806425838D13 /* QRCodeReader.swift.modulemap */,
-				72E0F1F3C3FD0C6143ED889ABE42747C /* QRCodeReader.swift.xcconfig */,
-				EED9BB41AA8FA05408DEF568283C7531 /* QRCodeReader.swift-dummy.m */,
-				F432B5ACB5183F32B2A644BF40C1D0C5 /* QRCodeReader.swift-prefix.pch */,
-				310DF8F87D61EDE2BBCF9A86BA77FE66 /* QRCodeReader.swift-umbrella.h */,
-			);
-			name = "Support Files";
-			path = "../Target Support Files/QRCodeReader.swift";
-			sourceTree = "<group>";
-		};
-		5BC914FFA9298C35D5557664EC08767C /* QRCodeReader.swift */ = {
-			isa = PBXGroup;
-			children = (
-				528E036429E14C5960BFE14911FF92B4 /* QRCodeReader.swift */,
-				60BD6B115B7966F32BE00217B71352C8 /* QRCodeReaderResult.swift */,
-				8AC0C1F48F77CD3A73A47AC85D1EBBF9 /* QRCodeViewController.swift */,
-				567F6B53FF7A77E20FD9A0EE7C913009 /* QRCodeViewControllerBuilder.swift */,
-				1F157E6B1EA9773211B6F484C6E57DAE /* ReaderOverlayView.swift */,
-				64C213B04E0D12BE53A446F9C072E592 /* SwitchCameraButton.swift */,
-				48CDC1AB322FE5502E0B1E2A6E4BDA31 /* ToggleTorchButton.swift */,
-				52DADC3B0BE89FDBEE3D33A6CCF9BBEE /* Support Files */,
-			);
-			path = QRCodeReader.swift;
-			sourceTree = "<group>";
-		};
-		7A8A38DAB454D7193B18419919893A3B /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				4D6892B3CA3F35A3C5EF817B2767FB2E /* CryptoSwift.framework */,
-				028E3C6CAF031EF01D95C1AF0A049A74 /* Pods_Cryptonite_iOS.framework */,
-				41F5CACF844D1AB45DAA8B08EED16F49 /* Pods_Cryptonite_iOSTests.framework */,
-				86B86A5FEFF756AD9AB5EA7976ADB125 /* Pods_Cryptonite_iOSUITests.framework */,
-				34C383301DF45109C3EDC374457BB11B /* QRCodeReader.framework */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
 		7DB346D0F39D3F0E887471402A8071AB = {
 			isa = PBXGroup;
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
 				433CD3331B6C3787F473C941B61FC68F /* Frameworks */,
-				A9097AB19265329831234AB56E64DA1F /* Pods */,
-				7A8A38DAB454D7193B18419919893A3B /* Products */,
+				328EB4344C8AEB827BD6649274F535A2 /* Pods */,
+				CFEF42BFDB37F97D541068E6062FE688 /* Products */,
 				2BD4A19F4EE5E20822F2AD4C9ECB2039 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
-		8AF036599223C6E07AF2BEF91F30CCB3 /* CryptoSwift */ = {
+		869AE6068D39D861DC172994F8FB0632 /* QRCodeReader.swift */ = {
 			isa = PBXGroup;
 			children = (
-				9068E9DB878A4ADAE6DF89316C1B451D /* AES.swift */,
-				6918A6B6A54F8DE55FE8832EEB41E80B /* AES+Foundation.swift */,
-				FA6D308C36C4B1F7F4D21094ADDACC99 /* Array+Extension.swift */,
-				FBABC57F7356865108F528A631B846B4 /* ArrayUInt8+Foundation.swift */,
-				5E9FAF2F841A706F98F695C6741BF066 /* Authenticator.swift */,
-				4F06B537F8A8EDAC72696C3283CD6A94 /* Bit.swift */,
-				DDE8D00138CA15D746BDA46E39D558FD /* BlockCipher.swift */,
-				E4C95397048AA282E0502433BAD2C487 /* BlockMode.swift */,
-				0475B595A29DA1784BE0B630153A989A /* BlockModeOptions.swift */,
-				4EF6F77A0091DF643C914BFE3F54F4B1 /* BlockModeWorker.swift */,
-				4FF74117BF3847B64EE5151E4EC9A048 /* BytesSequence.swift */,
-				0456156091B52A79707DBCC81C29B3F7 /* CBC.swift */,
-				013379E7B5BDA7D6ABB448551AA325B9 /* CFB.swift */,
-				025C12EC90DF98E35838906C727E647C /* ChaCha20.swift */,
-				41A1BF4402CEE27E409E474D47B17A84 /* ChaCha20+Foundation.swift */,
-				4E2AE3B77F8B9F5CF584E27BFC268EF7 /* Cipher.swift */,
-				C669581F69209F09584B6C4CA8D427FA /* CRC.swift */,
-				8F746A9CB93BA5F68844059B053CEA01 /* Cryptors.swift */,
-				A93B171762EEC0ABED183E1949032686 /* CSArrayType+Extensions.swift */,
-				DD2E397BFDAD5B2A0AC545406ABC45DE /* CSArrayType+Foundation.swift */,
-				2D13D90F6837F820FB5D218B1F941F83 /* CTR.swift */,
-				8FAFEC969D2EC8044B5658B01A1BD160 /* ECB.swift */,
-				3E98001BFC893254E0C4D4DCF5FD93FC /* Generics.swift */,
-				015B91D938A15AE5F00E381D10F61C96 /* Hash.swift */,
-				7607827B27316C4447E7890B09D94AC0 /* HashProtocol.swift */,
-				CC3B94C50D69221B2DB94FAB898C5010 /* HMAC.swift */,
-				A63B83C0B39911CCAEDD376A7E093242 /* IntegerConvertible.swift */,
-				D954DB1F0CD292F15A902FF5E0B5A31E /* IntExtension.swift */,
-				A58830359F58C5060B52A7BE6496BC53 /* MD5.swift */,
-				5546BDFB4A118E9787ACF5EF0E793B33 /* Multiplatform.swift */,
-				0E40374917BE250D0CF126A44A3F1F98 /* NoPadding.swift */,
-				0D4129B06806B8D018934CBE0DBF5C26 /* NSData+Extension.swift */,
-				222D7483232BFC031634337F8A1BC515 /* OFB.swift */,
-				B15E85DD2CF8BCFF24E2500831A93357 /* Operators.swift */,
-				06DB4AFE23D134CA657E9F7FAD10F063 /* Padding.swift */,
-				62E0C103CF7CDBA9BE7AA1723C7B2009 /* PBKDF1.swift */,
-				3F324FADDD55F28C4C8BB2B2BB69E99C /* PBKDF2.swift */,
-				206C95E4D07D1B4F8C45A41EEAD4EEB5 /* PCBC.swift */,
-				5516F9A95E44108C671FFFF83134650A /* PKCS5.swift */,
-				59EBF83D670B2D02963026A3C87C9891 /* PKCS7.swift */,
-				5D730170B6FF866C9948D0028AAE9E11 /* Poly1305.swift */,
-				25167201AC4533CA48476A5AE4A0EAD8 /* Rabbit.swift */,
-				13CFA655BADC6CC0CE7B6179591D81A2 /* Rabbit+Foundation.swift */,
-				97C17651C759970A4E45C1527AE86A2D /* SecureBytes.swift */,
-				619AFEC90028DCCBFA4A8284ADA1D203 /* SHA1.swift */,
-				BAAA21A4968B4ACC23EC20AB8306E5F6 /* SHA2.swift */,
-				371BE97E8467FAF11E2234DA739E8602 /* String+Extension.swift */,
-				AAC2326CAEE8C5CBF78E3C40853273C9 /* String+FoundationExtension.swift */,
-				27B5EEF2920F5C7C317EADEC8153198B /* String+LinuxFoundation.swift */,
-				88995BB6F2AA00EDFCAE0B66C3240819 /* UInt32Extension.swift */,
-				EBE0AC7C524A5985BDBADD0F2F48CCA9 /* UInt64Extension.swift */,
-				FC3D792D6521E01FC783C52C5E93AE8A /* UInt8Extension.swift */,
-				E8A77B798BA1BBC04B13C693FC9556A5 /* UpdatableCryptor.swift */,
-				7DAFAB811EC5D9FAF85074AD44531A31 /* Utils.swift */,
-				3DBBAF48AB2792217DC8AAFF5B933D07 /* Utils+Foundation.swift */,
-				F8A5748AFFE28444811843AA5952E552 /* Support Files */,
+				8FAE0E8A5762335AE46B3F5F42E98F45 /* QRCodeReader.swift */,
+				AB4A86B2594C8170A480DEE99C73B050 /* QRCodeReaderResult.swift */,
+				4DB9004F058BE51D055F7F87A6181539 /* QRCodeViewController.swift */,
+				ABCAB3D6D9DB36E65801EAD88790031F /* QRCodeViewControllerBuilder.swift */,
+				C15015FA7767F6286B83F960A2E659FC /* ReaderOverlayView.swift */,
+				59BEA51867007CFBC3C85BD5FAF09511 /* SwitchCameraButton.swift */,
+				D129B15A077DB6434416DAA596B01DC4 /* ToggleTorchButton.swift */,
+				9EB7AF531F9409190C4B95DD77BD6798 /* Support Files */,
 			);
-			path = CryptoSwift;
+			path = QRCodeReader.swift;
+			sourceTree = "<group>";
+		};
+		86E6E329F84324E0E46CDE6F49399161 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				89C9696A0F7AA119E32E1E22E03500E0 /* Info.plist */,
+				9EF834EAEF2E28A46D3C6E66DAF58866 /* SwiftyJSON.modulemap */,
+				FDF8675BCFD596A68F5517A9D7754409 /* SwiftyJSON.xcconfig */,
+				F10B4830C8018AD5520B4B2C1DCF46BC /* SwiftyJSON-dummy.m */,
+				EEE341858ACD3AE6352D26F538EAF011 /* SwiftyJSON-prefix.pch */,
+				C2755EA0AFD1545CEA61B1DF675632C1 /* SwiftyJSON-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/SwiftyJSON";
+			sourceTree = "<group>";
+		};
+		9EB7AF531F9409190C4B95DD77BD6798 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				0C220A2E19EA7977589CEED7AE09CBAE /* Info.plist */,
+				F068A2E637F1982B828721EBDD5BC535 /* QRCodeReader.swift.modulemap */,
+				C446982E5ADC0415FD8ACE4946CA2E6A /* QRCodeReader.swift.xcconfig */,
+				AE386A19304A59F389912F11792EDC81 /* QRCodeReader.swift-dummy.m */,
+				8DD7E41EA8A68C7CC6196C324F46CA7E /* QRCodeReader.swift-prefix.pch */,
+				B94CC7F9C7FAB80C68B7C11046BDD027 /* QRCodeReader.swift-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/QRCodeReader.swift";
 			sourceTree = "<group>";
 		};
 		A40AF8D79D4382828A0EEAD80AB26358 /* iOS */ = {
@@ -442,13 +495,26 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		A9097AB19265329831234AB56E64DA1F /* Pods */ = {
+		CFEF42BFDB37F97D541068E6062FE688 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				8AF036599223C6E07AF2BEF91F30CCB3 /* CryptoSwift */,
-				5BC914FFA9298C35D5557664EC08767C /* QRCodeReader.swift */,
+				A5743A333AA723DD68D824B595B70A97 /* CryptoSwift.framework */,
+				FA070FD1ED6EDBF368CC41EED3044A89 /* Pods_Cryptonite_iOS.framework */,
+				E4F558F58BA3F107E39AD54D1E541948 /* Pods_Cryptonite_iOSTests.framework */,
+				E9585E40117F506EF67A669D2A4B2666 /* Pods_Cryptonite_iOSUITests.framework */,
+				E8E241D624D4B4EDD546A5DE9A2FB12A /* QRCodeReader.framework */,
+				2BB10F1EF8FBB39AA736366ACF1539CC /* SwiftyJSON.framework */,
 			);
-			name = Pods;
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D1E8C4946F394C595B889E6C7D1EA2D9 /* SwiftyJSON */ = {
+			isa = PBXGroup;
+			children = (
+				10FD36FC1055467E3C0716F965D2EC92 /* SwiftyJSON.swift */,
+				86E6E329F84324E0E46CDE6F49399161 /* Support Files */,
+			);
+			path = SwiftyJSON;
 			sourceTree = "<group>";
 		};
 		D76CD0D0F1457A6D9F662B03ABE9D9DE /* Pods-Cryptonite-iOSTests */ = {
@@ -469,31 +535,9 @@
 			path = "Target Support Files/Pods-Cryptonite-iOSTests";
 			sourceTree = "<group>";
 		};
-		F8A5748AFFE28444811843AA5952E552 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				80699EA8BDA3090B76B26D0CB74BF5CC /* CryptoSwift.modulemap */,
-				8EBA5F1B17714146FD053548B00277A2 /* CryptoSwift.xcconfig */,
-				74AB1921F137154ECA23EF373A7D83CE /* CryptoSwift-dummy.m */,
-				83F82048F9F6BB62F9493C5A54584417 /* CryptoSwift-prefix.pch */,
-				1D06E120F1447DC8592F8F5D0EE68D9E /* CryptoSwift-umbrella.h */,
-				A4C0446C1B6EB174C2660E7B9626ADA2 /* Info.plist */,
-			);
-			name = "Support Files";
-			path = "../Target Support Files/CryptoSwift";
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		6D1959A4207DA64A332F5183ECEE865C /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				C7A9901D44CE0FB3FE9E567AC29DD29B /* Pods-Cryptonite-iOS-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		CD1B722A0C8F902DDF1181AED342A976 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -510,6 +554,22 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		DDA1F74F664E81B50FC221BADFCDD9F2 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1A0EBE189D81990160CB7E923E574B60 /* SwiftyJSON-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E2553D473FAE7677650DD93858356E65 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2F650EEC1AA1F5C65BD41EC2668F65E1 /* QRCodeReader.swift-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		E7E49947DDAA0E88A82DCFB37E059B08 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -518,11 +578,11 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F8B235FCA55AA8520F6FCAA8744687A2 /* Headers */ = {
+		EB48F90F442F95020DA8D79438DC0FC2 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				25F569469B8017D74ABDD420BAA0D0D4 /* QRCodeReader.swift-umbrella.h in Headers */,
+				F1A0DF4E0BA606AFA1F35D152B6F0185 /* Pods-Cryptonite-iOS-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -543,7 +603,27 @@
 			);
 			name = "Pods-Cryptonite-iOSUITests";
 			productName = "Pods-Cryptonite-iOSUITests";
-			productReference = 86B86A5FEFF756AD9AB5EA7976ADB125 /* Pods_Cryptonite_iOSUITests.framework */;
+			productReference = E9585E40117F506EF67A669D2A4B2666 /* Pods_Cryptonite_iOSUITests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		2FF8D80F9F87978E11A252A03ED219CF /* Pods-Cryptonite-iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04F78892D471551B7D1B9D7DE18BD3AE /* Build configuration list for PBXNativeTarget "Pods-Cryptonite-iOS" */;
+			buildPhases = (
+				CC122C9BF7AD904D079E51DBF96252C7 /* Sources */,
+				D690320CF82000397DC284D2FA066F44 /* Frameworks */,
+				EB48F90F442F95020DA8D79438DC0FC2 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AC3E98AB508F4FCFA45382DD582F0754 /* PBXTargetDependency */,
+				5629AEF046ABCCE37F9B2E64A230198F /* PBXTargetDependency */,
+				6D87B5B06BD4AF082121AF60FC7A2299 /* PBXTargetDependency */,
+			);
+			name = "Pods-Cryptonite-iOS";
+			productName = "Pods-Cryptonite-iOS";
+			productReference = FA070FD1ED6EDBF368CC41EED3044A89 /* Pods_Cryptonite_iOS.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		30943B25F0DEC51D0012EB94E0670356 /* CryptoSwift */ = {
@@ -560,26 +640,24 @@
 			);
 			name = CryptoSwift;
 			productName = CryptoSwift;
-			productReference = 4D6892B3CA3F35A3C5EF817B2767FB2E /* CryptoSwift.framework */;
+			productReference = A5743A333AA723DD68D824B595B70A97 /* CryptoSwift.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		4E5EAC28EBD307FDBA43EE3403950D09 /* Pods-Cryptonite-iOS */ = {
+		4C64DFCD9DA861F8A6A1A380D13009C1 /* SwiftyJSON */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 20BA8EB17621F816C49A319DACC68A7B /* Build configuration list for PBXNativeTarget "Pods-Cryptonite-iOS" */;
+			buildConfigurationList = D217C91216352B1DCC2B1E8E081232E5 /* Build configuration list for PBXNativeTarget "SwiftyJSON" */;
 			buildPhases = (
-				D8104B605D649AC2B2B9BE85694DC8C0 /* Sources */,
-				41DF47E13AD952F960FCF95249126C9F /* Frameworks */,
-				6D1959A4207DA64A332F5183ECEE865C /* Headers */,
+				2395BE29E8D0D245B6DC3C7B0555F2D4 /* Sources */,
+				3332335E37FE7B91B5C032979ED907EF /* Frameworks */,
+				DDA1F74F664E81B50FC221BADFCDD9F2 /* Headers */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				4D4DA5D90511A70B3CA06FA869A63384 /* PBXTargetDependency */,
-				E5541059D3E326C88FAF26A29405D520 /* PBXTargetDependency */,
 			);
-			name = "Pods-Cryptonite-iOS";
-			productName = "Pods-Cryptonite-iOS";
-			productReference = 028E3C6CAF031EF01D95C1AF0A049A74 /* Pods_Cryptonite_iOS.framework */;
+			name = SwiftyJSON;
+			productName = SwiftyJSON;
+			productReference = 2BB10F1EF8FBB39AA736366ACF1539CC /* SwiftyJSON.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		543735C3C6471A3C04B168B055EED756 /* Pods-Cryptonite-iOSTests */ = {
@@ -596,16 +674,16 @@
 			);
 			name = "Pods-Cryptonite-iOSTests";
 			productName = "Pods-Cryptonite-iOSTests";
-			productReference = 41F5CACF844D1AB45DAA8B08EED16F49 /* Pods_Cryptonite_iOSTests.framework */;
+			productReference = E4F558F58BA3F107E39AD54D1E541948 /* Pods_Cryptonite_iOSTests.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		BFBCDAE4131049BBA046ED4142B2C051 /* QRCodeReader.swift */ = {
+		842ABF020DB4F95B3F89A6D4BD2D3F96 /* QRCodeReader.swift */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 2DDE87B1A0FCCC151C6FAAC001188817 /* Build configuration list for PBXNativeTarget "QRCodeReader.swift" */;
+			buildConfigurationList = 550AEC47F20DE619AD04C86A0B533AAC /* Build configuration list for PBXNativeTarget "QRCodeReader.swift" */;
 			buildPhases = (
-				87DE9CBBEAD918A34A8BFEA3310265AB /* Sources */,
-				D04A8B9C826D60C0568B1C4B6F6D0757 /* Frameworks */,
-				F8B235FCA55AA8520F6FCAA8744687A2 /* Headers */,
+				5A50DF98939BD2EDCE15141FB7D6E6DB /* Sources */,
+				72D16D3C079D079301EA057F24B96C46 /* Frameworks */,
+				E2553D473FAE7677650DD93858356E65 /* Headers */,
 			);
 			buildRules = (
 			);
@@ -613,7 +691,7 @@
 			);
 			name = QRCodeReader.swift;
 			productName = QRCodeReader.swift;
-			productReference = 34C383301DF45109C3EDC374457BB11B /* QRCodeReader.framework */;
+			productReference = E8E241D624D4B4EDD546A5DE9A2FB12A /* QRCodeReader.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -633,20 +711,45 @@
 				en,
 			);
 			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = 7A8A38DAB454D7193B18419919893A3B /* Products */;
+			productRefGroup = CFEF42BFDB37F97D541068E6062FE688 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
 				30943B25F0DEC51D0012EB94E0670356 /* CryptoSwift */,
-				4E5EAC28EBD307FDBA43EE3403950D09 /* Pods-Cryptonite-iOS */,
+				2FF8D80F9F87978E11A252A03ED219CF /* Pods-Cryptonite-iOS */,
 				543735C3C6471A3C04B168B055EED756 /* Pods-Cryptonite-iOSTests */,
 				1D83B43EE1D78C406AE8C9CF25320F90 /* Pods-Cryptonite-iOSUITests */,
-				BFBCDAE4131049BBA046ED4142B2C051 /* QRCodeReader.swift */,
+				842ABF020DB4F95B3F89A6D4BD2D3F96 /* QRCodeReader.swift */,
+				4C64DFCD9DA861F8A6A1A380D13009C1 /* SwiftyJSON */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
+		2395BE29E8D0D245B6DC3C7B0555F2D4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				79DB9CD6F7CC114B6A0CE3A06DEC9942 /* SwiftyJSON-dummy.m in Sources */,
+				BCEF4AC17D6827CD8297763B245CA0F1 /* SwiftyJSON.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5A50DF98939BD2EDCE15141FB7D6E6DB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F7E6D07DA95BAB4D746FB0EA2C6CE155 /* QRCodeReader.swift in Sources */,
+				6FC80E0D8411584389EE971104B54526 /* QRCodeReader.swift-dummy.m in Sources */,
+				96DA2BE70F7B09F47861943A6FD1669B /* QRCodeReaderResult.swift in Sources */,
+				E4B0B3F809273A83525B134B8E87EA81 /* QRCodeViewController.swift in Sources */,
+				2612D780FAAA572E8C74E6E78D243DB3 /* QRCodeViewControllerBuilder.swift in Sources */,
+				F5BC038DE10C5AEA4396CF6338225DE4 /* ReaderOverlayView.swift in Sources */,
+				D659CB222F2B22969D51A2DF97AE6B29 /* SwitchCameraButton.swift in Sources */,
+				D34D35958C617D40A689BA4B46C1EBE3 /* ToggleTorchButton.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		7473DFDDDCE3CDA2F0EBDBE6942A5F7C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -660,21 +763,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				C742B38EA6CD889EB03602A711BB389A /* Pods-Cryptonite-iOSUITests-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		87DE9CBBEAD918A34A8BFEA3310265AB /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				1FAB2DF0C4BEBA60862F4C781824A520 /* QRCodeReader.swift in Sources */,
-				EDF6644283CE35D5E4FD6FB36ADA36BA /* QRCodeReader.swift-dummy.m in Sources */,
-				9D44227A256AAEF40EE19D87D2ED6525 /* QRCodeReaderResult.swift in Sources */,
-				6D2960B2EEB75FD63F2BE5A594BECD20 /* QRCodeViewController.swift in Sources */,
-				A6E20D7FB13FFBE6E97CC86AC1E67DFC /* QRCodeViewControllerBuilder.swift in Sources */,
-				233C81BFAE6A31EE531B96C6B409BEB7 /* ReaderOverlayView.swift in Sources */,
-				13EED32B815423D4DE8238EE21487924 /* SwitchCameraButton.swift in Sources */,
-				7AB60A40D25880CF2786A5F7EB230C18 /* ToggleTorchButton.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -741,32 +829,101 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D8104B605D649AC2B2B9BE85694DC8C0 /* Sources */ = {
+		CC122C9BF7AD904D079E51DBF96252C7 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				19B949426A91124CFAE33ECECD8D073A /* Pods-Cryptonite-iOS-dummy.m in Sources */,
+				24B68D338B05C01FCC396DD1CAA33FF4 /* Pods-Cryptonite-iOS-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		4D4DA5D90511A70B3CA06FA869A63384 /* PBXTargetDependency */ = {
+		5629AEF046ABCCE37F9B2E64A230198F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = QRCodeReader.swift;
+			target = 842ABF020DB4F95B3F89A6D4BD2D3F96 /* QRCodeReader.swift */;
+			targetProxy = 50F1B1D1165B0F250FCED4D2E72567ED /* PBXContainerItemProxy */;
+		};
+		6D87B5B06BD4AF082121AF60FC7A2299 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SwiftyJSON;
+			target = 4C64DFCD9DA861F8A6A1A380D13009C1 /* SwiftyJSON */;
+			targetProxy = 7559D45AF76D40623C67D8A0C1903882 /* PBXContainerItemProxy */;
+		};
+		AC3E98AB508F4FCFA45382DD582F0754 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = CryptoSwift;
 			target = 30943B25F0DEC51D0012EB94E0670356 /* CryptoSwift */;
-			targetProxy = F76BAD70F1BBDAD77F61142FF8F00766 /* PBXContainerItemProxy */;
-		};
-		E5541059D3E326C88FAF26A29405D520 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = QRCodeReader.swift;
-			target = BFBCDAE4131049BBA046ED4142B2C051 /* QRCodeReader.swift */;
-			targetProxy = F299CA580D29938794401001DFF828D3 /* PBXContainerItemProxy */;
+			targetProxy = 2E91EE1932A254876AB93569FC3E7B1E /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
+		173B7A068253425281BB46C70F760FAE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1F4C2C5D9FDF24CB878ED4464D7DB376 /* Pods-Cryptonite-iOS.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-Cryptonite-iOS/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Cryptonite-iOS/Pods-Cryptonite-iOS.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_Cryptonite_iOS;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		2D66DD7D3177856C29C4B58171924D75 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FDF8675BCFD596A68F5517A9D7754409 /* SwiftyJSON.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/SwiftyJSON/SwiftyJSON-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SwiftyJSON/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SwiftyJSON/SwiftyJSON.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = SwiftyJSON;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 		3CCDF6344FDDC4C591203E185E4986D4 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 4459C04D89C63E68A695649DD0E40DCE /* Pods-Cryptonite-iOSTests.debug.xcconfig */;
@@ -838,9 +995,42 @@
 			};
 			name = Release;
 		};
+		419C643205CBA3B3A73A0954E162EF3C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C1FC0173841ABC674E0E580ADF156BFE /* Pods-Cryptonite-iOS.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-Cryptonite-iOS/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Cryptonite-iOS/Pods-Cryptonite-iOS.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_Cryptonite_iOS;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 		4FB130AAAF57EBAB497117DEC7D69670 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 8EBA5F1B17714146FD053548B00277A2 /* CryptoSwift.xcconfig */;
+			baseConfigurationReference = 4D685B70E59884F7C629809EC96125DC /* CryptoSwift.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CURRENT_PROJECT_VERSION = 1;
@@ -909,9 +1099,9 @@
 			};
 			name = Debug;
 		};
-		7237DF81E8C5E8951BC36BC8E3445EBF /* Release */ = {
+		7379FAB95B78AA9C7094230D9B64469B /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = C1FC0173841ABC674E0E580ADF156BFE /* Pods-Cryptonite-iOS.release.xcconfig */;
+			baseConfigurationReference = C446982E5ADC0415FD8ACE4946CA2E6A /* QRCodeReader.swift.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CURRENT_PROJECT_VERSION = 1;
@@ -922,18 +1112,14 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-Cryptonite-iOS/Info.plist";
+				GCC_PREFIX_HEADER = "Target Support Files/QRCodeReader.swift/QRCodeReader.swift-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/QRCodeReader.swift/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-Cryptonite-iOS/Pods-Cryptonite-iOS.modulemap";
+				MODULEMAP_FILE = "Target Support Files/QRCodeReader.swift/QRCodeReader.swift.modulemap";
 				MTL_ENABLE_DEBUG_INFO = NO;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_Cryptonite_iOS;
+				PRODUCT_NAME = QRCodeReader;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -942,9 +1128,9 @@
 			};
 			name = Release;
 		};
-		7A41E5ED8D3FE009EF9ADE33B0895FBE /* Debug */ = {
+		743F7401F9D21DD9208D6379483FEC67 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1F4C2C5D9FDF24CB878ED4464D7DB376 /* Pods-Cryptonite-iOS.debug.xcconfig */;
+			baseConfigurationReference = C446982E5ADC0415FD8ACE4946CA2E6A /* QRCodeReader.swift.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CURRENT_PROJECT_VERSION = 1;
@@ -955,18 +1141,44 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-Cryptonite-iOS/Info.plist";
+				GCC_PREFIX_HEADER = "Target Support Files/QRCodeReader.swift/QRCodeReader.swift-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/QRCodeReader.swift/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-Cryptonite-iOS/Pods-Cryptonite-iOS.modulemap";
+				MODULEMAP_FILE = "Target Support Files/QRCodeReader.swift/QRCodeReader.swift.modulemap";
 				MTL_ENABLE_DEBUG_INFO = YES;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_Cryptonite_iOS;
+				PRODUCT_NAME = QRCodeReader;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		7B88DB94FB570D4D4743BCEC801A3516 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FDF8675BCFD596A68F5517A9D7754409 /* SwiftyJSON.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/SwiftyJSON/SwiftyJSON-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SwiftyJSON/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SwiftyJSON/SwiftyJSON.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = SwiftyJSON;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
@@ -1011,7 +1223,7 @@
 		};
 		A88CC23F7AB4C97819728457BCCA440A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 8EBA5F1B17714146FD053548B00277A2 /* CryptoSwift.xcconfig */;
+			baseConfigurationReference = 4D685B70E59884F7C629809EC96125DC /* CryptoSwift.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CURRENT_PROJECT_VERSION = 1;
@@ -1030,36 +1242,6 @@
 				MODULEMAP_FILE = "Target Support Files/CryptoSwift/CryptoSwift.modulemap";
 				MTL_ENABLE_DEBUG_INFO = YES;
 				PRODUCT_NAME = CryptoSwift;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		B51994E1BF502B411810CE3639DD1B0F /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 72E0F1F3C3FD0C6143ED889ABE42747C /* QRCodeReader.swift.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/QRCodeReader.swift/QRCodeReader.swift-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/QRCodeReader.swift/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/QRCodeReader.swift/QRCodeReader.swift.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				PRODUCT_NAME = QRCodeReader;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
@@ -1094,35 +1276,6 @@
 				PODS_ROOT = "$(SRCROOT)";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = Pods_Cryptonite_iOSUITests;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		CC636CC3E215448520C0830348AEE534 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 72E0F1F3C3FD0C6143ED889ABE42747C /* QRCodeReader.swift.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/QRCodeReader.swift/QRCodeReader.swift-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/QRCodeReader.swift/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/QRCodeReader.swift/QRCodeReader.swift.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_NAME = QRCodeReader;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -1167,11 +1320,11 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		20BA8EB17621F816C49A319DACC68A7B /* Build configuration list for PBXNativeTarget "Pods-Cryptonite-iOS" */ = {
+		04F78892D471551B7D1B9D7DE18BD3AE /* Build configuration list for PBXNativeTarget "Pods-Cryptonite-iOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				7A41E5ED8D3FE009EF9ADE33B0895FBE /* Debug */,
-				7237DF81E8C5E8951BC36BC8E3445EBF /* Release */,
+				173B7A068253425281BB46C70F760FAE /* Debug */,
+				419C643205CBA3B3A73A0954E162EF3C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -1185,11 +1338,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		2DDE87B1A0FCCC151C6FAAC001188817 /* Build configuration list for PBXNativeTarget "QRCodeReader.swift" */ = {
+		550AEC47F20DE619AD04C86A0B533AAC /* Build configuration list for PBXNativeTarget "QRCodeReader.swift" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				B51994E1BF502B411810CE3639DD1B0F /* Debug */,
-				CC636CC3E215448520C0830348AEE534 /* Release */,
+				743F7401F9D21DD9208D6379483FEC67 /* Debug */,
+				7379FAB95B78AA9C7094230D9B64469B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -1208,6 +1361,15 @@
 			buildConfigurations = (
 				EA09CB31855B7D3B69BFE77DEF543A79 /* Debug */,
 				C4E0748BED4AFD4F074F561C08797589 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D217C91216352B1DCC2B1E8E081232E5 /* Build configuration list for PBXNativeTarget "SwiftyJSON" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7B88DB94FB570D4D4743BCEC801A3516 /* Debug */,
+				2D66DD7D3177856C29C4B58171924D75 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

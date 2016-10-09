@@ -14,21 +14,26 @@ class DesktopServerInteractor {
     
     func combineRequest() {
         performTextBasedRequestToServer("/combine", method: "POST", body: Database.loadEncryptedData()!, callback: {data,res,error in
-            self.handleServerResponse(String(data: data!, encoding: NSUTF8StringEncoding)!)
+            if(data != nil) {
+                self.handleServerResponse(String(data: data!, encoding: NSUTF8StringEncoding)!)
+            }
         })
     }
     
     func sendPhoneReplaceDesktopRequest() {
         performTextBasedRequestToServer("/phonetopc", method: "POST", body: Database.loadEncryptedData()!, callback: {data,res,error in
-            self.handleServerResponse(String(data: data!, encoding: NSUTF8StringEncoding)!)
+            if(data != nil) {
+                self.handleServerResponse(String(data: data!, encoding: NSUTF8StringEncoding)!)
+            }
         })
     }
     
     func handleServerResponse(dataStr: String) {
         print("==server response==")
         print(dataStr)
-        
-        
+        if dataStr != "true" {
+            Database.updateDatabaseEncryptedContent(dataStr, hex: AuthenticationManager.currentHex, pass: AuthenticationManager.currentPass)
+        }
     }
     
     func performTextBasedRequestToServer(route: String, method: String, body: String, callback: (NSData?, NSURLResponse?, NSError?) -> Void)
@@ -40,7 +45,7 @@ class DesktopServerInteractor {
         request.addValue("text/plain", forHTTPHeaderField: "Content-Type")
         let task = NSURLSession.sharedSession().dataTaskWithRequest(request) {(data, response, error) in
             print("==request==")
-            if(data != nil)
+            if data != nil
             {
                 print(String(data: data!, encoding: NSUTF8StringEncoding))
                 callback(data,response,error)

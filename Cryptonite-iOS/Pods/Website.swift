@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import SwiftyJSON
 
 class Website {
     var name: String
@@ -19,7 +20,11 @@ class Website {
         self.password = password
     }
     
-    func getJSONArrayItemString() -> String {
+    func getJSONArrayItemRawString() -> String {
         return "['" + name + "','" + user + "','" + password + "']"
+    }
+    
+    func getArrayItem() -> JSON {
+        return [name,user,password]
     }
 }
