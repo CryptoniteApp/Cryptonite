@@ -2,7 +2,7 @@
 
 chrome.tabs.onUpdated.addListener (function (tabId, changeInfo, tab) {
     if (changeInfo.status == 'complete') {
-        if (tab.url.indexOf("yahoo") != -1) {
+        if (tab.url.indexOf("amazon") != -1) {
             chrome.tabs.query({active: true, currentWindow: true}, function(tabs) {
                 chrome.tabs.executeScript(null, {file: "content.js"});
             });

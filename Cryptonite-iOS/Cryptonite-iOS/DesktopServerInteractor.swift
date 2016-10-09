@@ -17,7 +17,11 @@ class DesktopServerInteractor {
             if(data != nil) {
                 self.handleServerResponse(String(data: data!, encoding: NSUTF8StringEncoding)!)
             }
+            self.performTextBasedRequestToServer("/choice", method: "POST", body: "33", callback: {data,res,error in
+                print(data)
+            })
         })
+        
     }
     
     func sendPhoneReplaceDesktopRequest() {
@@ -25,14 +29,22 @@ class DesktopServerInteractor {
             if(data != nil) {
                 self.handleServerResponse(String(data: data!, encoding: NSUTF8StringEncoding)!)
             }
+            self.performTextBasedRequestToServer("/choice", method: "POST", body: "22", callback: {data,res,error in
+                print(data)
+            })
         })
+        
     }
     
     func handleServerResponse(dataStr: String) {
         print("==server response==")
         print(dataStr)
         if dataStr != "true" {
-            Database.updateDatabaseEncryptedContent(dataStr, hex: AuthenticationManager.currentHex, pass: AuthenticationManager.currentPass)
+            Database.updateDatabaseEncryptedContent(dataStr, hex: "#2980B9#2980B9#27AE60#27AE60#E67E22#E67E22", pass: "MrKrabs@123")
+            if(Database.decrypt("#2980B9#2980B9#27AE60#27AE60#E67E22#E67E22", pass: "MrKrabs@123")){
+                print("decrypt success:")
+                print(Database.decryptedJSON)
+            }
         }
     }
     

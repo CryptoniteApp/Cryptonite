@@ -9,6 +9,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
     <link rel="icon" href="../../favicon.ico">
+    <link href="dashboard.css" rel="stylesheet">
 
     <title>Cryptonite</title>
 
@@ -20,7 +21,6 @@
     <link href="../../assets/css/ie10-viewport-bug-workaround.css" rel="stylesheet">
 
     <!-- Custom styles for this template -->
-    <link href="dashboard.css" rel="stylesheet">
     <script src="http://code.jquery.com/jquery-3.1.1.min.js"   integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="   crossorigin="anonymous"></script>
 
 
@@ -38,51 +38,18 @@
   </head>
 
   <body>
-    <div class="container-fluid">
-      <div class="row">
-        <div class="col-sm-3 col-md-2 sidebar">
-          <ul class="nav nav-sidebar">
-          <form class="nav nav-searchbar" id="search">
-            <input type="text" class="form-control" placeholder="Search..."/>
-          </form>
-            <li><a><h4>Features</h2></a></li>
-            <li><a href="/synctopc">Sync to PC <span class="sr-only">(current)</span></a></li>
-            <li><a href="">Sync from PC</a></li>
-            <li><a href="/combine">Combine Databases</a></li>
-          </ul>
-        </div>
-        <div class="col-sm-9 col-sm-offset-3 col-md-10 col-md-offset-2 main">
-            <table class="table table-hover" id="tab_logic">
-              <thead>
-                <tr>
-                  <th>Site</th>
-                  <th>Username</th>
-                  <th>Password</th>
-                </tr>
-              </thead>
-              <tbody>
-                <tr>
-                  <td>Google</td>
-                  <td>steve</td>
-                  <td>steve</td>
-                </tr>
-              </tbody>
-            </table>
-          </div>
-        </div>
+    <div class="row" id="tiles">
+        <div id="color" class="col-md-8 col-lg-6 G"></div>
+        <div id="color" class="col-md-8 col-lg-6 B"></div>
+        <div id="color" class="col-md-8 col-lg-6 P"></div>
+        <div id="color" class="col-md-8 col-lg-6 BL"></div>
+        <div id="color" class="col-md-8 col-lg-6 Y"></div>
+        <div id="color" class="col-md-8 col-lg-6 O"></div>
+        <div id="color" class="col-md-8 col-lg-6 R"></div>
+        <div id="color" class="col-md-8 col-lg-6 W"></div>
+        <div id="color" class="col-md-8 col-lg-6 GR"></div>
+        <div id="color" class="col-md-8 col-lg-6 PI"></div>
     </div>
-    <div class="new"> <a id="new">+ Add a new account</a></div>
-    <script type="text/javascript">
-    $(document).ready(function(){
-    $("#new").click(function(e){
-         e.preventDefault();
-         BootstrapDialog.show({
-             title: 'Add a new account',
-             message: $('<input type="text" class="form-control" placeholder="Site name"/> <input type="text" class="form-control" placeholder="Username"/> <input type="text" class="form-control" placeholder="Password"/>'),
-        });
-    });
-});
-</script>
 
     <!-- Bootstrap core JavaScript
     ================================================== -->
