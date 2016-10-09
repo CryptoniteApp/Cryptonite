@@ -4,6 +4,7 @@
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap/blob/gh-pages/LICENSE)
  */
 
+@import url(http://fonts.googleapis.com/css?family=Roboto);
 body,
 html {
     width: 100%;
@@ -173,7 +174,7 @@ p.copyright {
 .loginmodal-container {
   font-family: "Roboto" !important;
   padding: 30px;
-  max-width: 350px;
+  max-width: 100%;
   width: 100% !important;
   background-color: #F7F7F7;
   margin: 0 auto;
@@ -199,6 +200,7 @@ p.copyright {
 .loginmodal-container input[type=text], input[type=password] {
   height: 44px;
   font-size: 16px;
+  font-family: "Roboto";
   width: 100%;
   margin-bottom: 10px;
   -webkit-appearance: none;
@@ -222,9 +224,10 @@ p.copyright {
 .loginmodal {
   text-align: center;
   font-size: 14px;
-  font-family: "Roboto", sans-serif;
+  font-family: "Roboto", sans-serif !important;
   font-weight: 700;
-  height: 36px;
+  height: 10em;
+  padding-top:;
   padding: 0 8px;
 }
 
@@ -235,7 +238,7 @@ p.copyright {
   text-shadow: 0 1px rgba(0,0,0,0.1);
   background-color: #4d90fe;
   padding: 17px 0px;
-  font-family: "Roboto";
+  font-family: "Roboto" !important;
   font-size: 14px;
   /* background-image: -webkit-gradient(linear, 0 0, 0 100%,   from(#4d90fe), to(#4787ed)); */
 }

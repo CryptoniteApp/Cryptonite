@@ -1,13 +1,13 @@
 $(document).ready(function(){
     $("#tiles").randomize(".col-md-8 col-lg-6");
-    $(".new").click(function(e){
-         e.preventDefault();
-         alert("a");
-    });
+    $("#topc").on("click", function(e) {
+      e.preventDefault(); // cancel the link itself
+      $.post(this.href, "2", "text/plain") {
+    };
+  });
 });
 
-(function($) {
-
+  (function($) {
   $.fn.randomize = function(selector){
     (selector ? this.find(selector) : this).parent().each(function(){
         $(this).children(selector).sort(function(){
@@ -19,4 +19,4 @@ $(document).ready(function(){
 };
 
 })(jQuery);
-//.B, .G, .O, .P, .BL, .Y, .R, .W, .GR, .PI
+

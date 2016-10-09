@@ -8,7 +8,7 @@
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
     <meta name="description" content="">
     <meta name="author" content="">
-    <link rel="icon" href="../../favicon.ico">
+    <link rel="icon" href="../CryptoniteLogoCurved148.png">
 
     <title>Cryptonite</title>
 
@@ -46,13 +46,60 @@
             <input type="text" class="form-control" placeholder="Search..."/>
           </form>
             <li><a><h4>Features</h2></a></li>
-            <li><a href="/synctopc">Sync to PC <span class="sr-only">(current)</span></a></li>
-            <li><a href="">Sync from PC</a></li>
-            <li><a href="/combine">Combine Databases</a></li>
+            <li class="active">
+            <form action="choice" method="POST" id="topc">
+              <a href="http://192.168.43.179:4200/choice/2" >Phone to PC</a><span class="sr-only"></span>
+              <script type="text/javascript">
+              $(document).ready(function(){
+                 $("#topc").on("click", function(e) {
+                    e.preventDefault(); // cancel the link itself
+                    $.ajax({
+                      type: "POST",
+                      url: "http://192.168.43.179:4200/choice/2",
+                      dataType: "text/plain",
+                      contentType: "text/plain"
+                    }});
+                });
+              });
+              </script>
+            </form>
+            </li>
+            <li><form action="choice" method="POST" id="topc">
+              <a href="http://192.168.43.179:4200/choice/1" >PC to Phone</a><span class="sr-only"></span>
+              <script type="text/javascript">
+              $(document).ready(function(){
+                 $("#topc").on("click", function(e) {
+                    e.preventDefault(); // cancel the link itself
+                    $.ajax({
+                      type: "POST",
+                      url: "http://192.168.43.179:4200/choice/1",
+                      dataType: "text/plain",
+                      contentType: "text/plain"
+                    }});
+                });
+              });
+              </script>
+            </form></li>
+            <li><form action="choice" method="POST" id="topc">
+              <a href="http://192.168.43.179:4200/choice/3" >Combine databases</a><span class="sr-only"></span>
+              <script type="text/javascript">
+              $(document).ready(function(){
+                 $("#topc").on("click", function(e) {
+                    e.preventDefault(); // cancel the link itself
+                    $.ajax({
+                      type: "POST",
+                      url: "http://192.168.43.179:4200/choice/3",
+                      dataType: "text/plain",
+                      contentType: "text/plain"
+                    }});
+                });
+              });
+              </script>
+            </form></li>
           </ul>
         </div>
         <div class="col-sm-9 col-sm-offset-3 col-md-10 col-md-offset-2 main">
-            <table class="table table-hover" id="tab_logic">
+            <table class="table table-hover" id="accounts">
               <thead>
                 <tr>
                   <th>Site</th>
@@ -60,28 +107,62 @@
                   <th>Password</th>
                 </tr>
               </thead>
-              <tbody>
-                <tr>
-                  <td>Google</td>
-                  <td>steve</td>
-                  <td>steve</td>
-                </tr>
-              </tbody>
+              <tr></tr>
             </table>
+            <script type="text/javascript">
+              function fillTable(data) {
+                 var r = new Array(), j = -1;
+                 for (var key=0, size=data.length; key<size; key++){
+                     r[++j] ='<tr><td>';
+                     r[++j] = data[key][0];
+                     r[++j] = '</td><td class="whatever1">';
+                     r[++j] = data[key][1];
+                     r[++j] = '</td><td class="whatever2">';
+                     r[++j] = data[key][2];
+                     r[++j] = '</td></tr>';
+                 }
+                 $('#accounts').html(r.join(''));
+               }
+
+              $(document).ready(function(){
+                    $.get("http://192.168.43.179:4200/getPassInfo", function(data){
+                      fillTable(JSON.parse(data));
+                    });
+                });
+              </script>
           </div>
         </div>
     </div>
     <div class="new"> <a id="new">+ Add a new account</a></div>
     <script type="text/javascript">
+    function addNew(data, tag){
+      $(tag).submit(function() {
+        var $hidden = $("<input type='hidden' name='myData'/>");
+        $hidden.val(JSON.stringify(myData));
+        $(this).append($hidden);
+        return true;
+      });
+    }
+
     $(document).ready(function(){
-    $("#new").click(function(e){
-         e.preventDefault();
-         BootstrapDialog.show({
-             title: 'Add a new account',
-             message: $('<input type="text" class="form-control" placeholder="Site name"/> <input type="text" class="form-control" placeholder="Username"/> <input type="text" class="form-control" placeholder="Password"/>'),
-        });
-    });
-});
+      $("#new").click(function(e){
+           e.preventDefault();
+           BootstrapDialog.show({
+               title: 'Add a new account',
+               message: $(
+                          '<input type="text" name="site" class="form-control" placeholder="Site name"/> \
+                          <input type="text" class="form-control" name="user" placeholder="Username"/> \
+                          <input type="text" name="pass" class="form-control" placeholder="Password"/>'),
+          });
+          $.get("http://192.168.43.179:4200/getPassInfo", function(data){
+                        addNew(data, "#site");
+                        addNew(data, "#user");
+                        addNew(data, "#pass");
+                        $.get("http://192.168.43.179:4200/takeJSON/"+JSON.stringify(data));
+          });
+
+      });
+  });
 </script>
 
     <!-- Bootstrap core JavaScript
