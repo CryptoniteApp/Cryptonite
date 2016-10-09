@@ -149,3 +149,19 @@ body {
   display: inline-block;
   border-radius: 50%;
 }
+
+#tiles{
+  margin-left: -10em;
+  margin-right: -10em;
+}
+
+.B {background-color:#2980B9; height:10em;}
+.G {background-color:#27AE60; height:10em;}
+.O {background-color:#E67E22; height:10em;}
+.P {background-color:#8E44AD; height:10em;}
+.BL {background-color:#2C3E50; height:10em;}
+.Y {background-color:#F1C40F; height:10em;}
+.R {background-color:#E62C19; height:10em;}
+.W {background-color:#ECF0F1; height:10em;}
+.GR {background-color:#7F8C8D; height:10em;}
+.PI {background-color:#ED7EED; height:10em;}
