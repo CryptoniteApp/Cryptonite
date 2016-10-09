@@ -31,7 +31,19 @@ class PCSyncViewController: UIViewController, QRCodeReaderViewControllerDelegate
             print(result?.value)
             if(result != nil)
             {
-                
+                if result?.value.containsString(":4200") != nil {
+                    let dsi = DesktopServerInteractor()
+                    let results = result?.value.characters.split{$0 == "/"}.map(String.init)
+                    dsi.serverURL = results![0]
+                    if(results![1].containsString("combine")){
+                        dsi.combineRequest()
+                    } else if(results![1].containsString("phonetopc")){
+                        dsi.sendPhoneReplaceDesktopRequest()
+                    }
+                } else if result?.value.containsString("replace:") != nil {
+                    let encryptedData = result?.value.stringByReplacingOccurrencesOfString("replace:", withString: "")
+                    Database.updateDatabaseEncryptedContent(encryptedData!, hex: AuthenticationManager.currentHex, pass: AuthenticationManager.currentPass)
+                }
             }
             
         }
@@ -40,6 +52,9 @@ class PCSyncViewController: UIViewController, QRCodeReaderViewControllerDelegate
         presentViewController(readerVC, animated: true, completion: nil)
     }
     
+    @IBAction func done(sender: AnyObject) {
+        self.dismissViewControllerAnimated(true, completion: nil)
+    }
     // MARK: - QRCodeReader Delegate Methods
     
     func reader(reader: QRCodeReaderViewController, didScanResult result: QRCodeReaderResult) {

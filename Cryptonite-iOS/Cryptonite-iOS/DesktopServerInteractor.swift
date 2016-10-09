@@ -17,7 +17,7 @@ class DesktopServerInteractor {
             if(data != nil) {
                 self.handleServerResponse(String(data: data!, encoding: NSUTF8StringEncoding)!)
             }
-            self.performTextBasedRequestToServer("/choice", method: "POST", body: "33", callback: {data,res,error in
+            self.performTextBasedRequestToServer("/choice/33", method: "GET", body: "", callback: {data,res,error in
                 print(data)
             })
         })
@@ -29,7 +29,7 @@ class DesktopServerInteractor {
             if(data != nil) {
                 self.handleServerResponse(String(data: data!, encoding: NSUTF8StringEncoding)!)
             }
-            self.performTextBasedRequestToServer("/choice", method: "POST", body: "22", callback: {data,res,error in
+            self.performTextBasedRequestToServer("/choice/22", method: "GET", body: "", callback: {data,res,error in
                 print(data)
             })
         })

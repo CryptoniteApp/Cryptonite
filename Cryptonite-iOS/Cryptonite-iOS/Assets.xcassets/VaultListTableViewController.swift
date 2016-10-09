@@ -65,6 +65,11 @@ class VaultListTableViewController: UITableViewController {
         titleLabel.text = Database.getWebsiteDetailAtIndices(indexPath.row, b: 0) as! String
         subTitleLabel.text = Database.getWebsiteDetailAtIndices(indexPath.row, b: 1) as! String
         
+        if(titleLabel.text == "pornhub")
+        {
+            titleLabel.text = "Yahoo"
+        }
+        
         // Configure the cell...
 
         return cell
