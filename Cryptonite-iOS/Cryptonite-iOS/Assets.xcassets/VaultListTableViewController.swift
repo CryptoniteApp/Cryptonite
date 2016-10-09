@@ -10,9 +10,11 @@ import UIKit
 
 class VaultListTableViewController: UITableViewController {
 
+    @IBOutlet var syncBtn: UIBarButtonItem!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        self.navigationItem.rightBarButtonItem = syncBtn
         // Uncomment the following line to preserve selection between presentations
         // self.clearsSelectionOnViewWillAppear = false
 
@@ -25,6 +27,9 @@ class VaultListTableViewController: UITableViewController {
         // Dispose of any resources that can be recreated.
     }
 
+    @IBAction func sync(sender: AnyObject) {
+        self.performSegueWithIdentifier("syncSegue", sender: sender)
+    }
     // MARK: - Table view data source
 
     override func numberOfSectionsInTableView(tableView: UITableView) -> Int {

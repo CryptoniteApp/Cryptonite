@@ -11,4 +11,13 @@ import UIKit
 class AuthenticationManager: NSObject {
     static var currentHex = ""
     static var currentPass = ""
+    
+    static func validate() -> Bool {
+        if(!Database.decrypt(currentHex, pass: currentPass)) {
+            currentHex = ""
+            currentPass = ""
+            return false
+        }
+        return true
+    }
 }
