@@ -10,7 +10,8 @@ import UIKit
 
 class Database {
     
-    static var decryptedJSON = ""
+    static var decryptedJSON = "[]"
+    static var websiteJSONs: [String] = [String]()
     
     static func writeDatabase(hex: String, pass: String) {
         let aes = AESHelper(key: ProceduralHelper.generateHash(hex,pass: pass), iv: ProceduralHelper.generateIV(hex,pass: pass))
@@ -31,8 +32,10 @@ class Database {
         print(decryptedJSON)
     }
     
-    static func addWebsite(name: String,user: String,password: String) {
-        
+    static func saveWebsite(name: String,user: String,password: String) {
+        let website = Website(name: name, user: user, password: password)
+        let websiteJSON = website.getJSONArrayItemString()
     }
+    
     
 }

@@ -81,18 +81,6 @@ class ProceduralHelper {
     }
 }
 
-extension String {
-    subscript (i: Int) -> Character {
-        return self[self.startIndex.advancedBy(i)]
-    }
-    var asciiArray: [UInt32] {
-        return unicodeScalars.filter{$0.isASCII()}.map{$0.value}
-    }
-    func insert(string:String,ind:Int) -> String {
-        return  String(self.characters.prefix(ind)) + string + String(self.characters.suffix(self.characters.count-ind))
-    }
-}
-
 extension Character {
     var asciiValue: UInt32? {
         return String(self).unicodeScalars.filter{$0.isASCII()}.first?.value

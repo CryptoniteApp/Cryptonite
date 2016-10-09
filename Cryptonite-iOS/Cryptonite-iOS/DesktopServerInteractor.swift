@@ -13,15 +13,22 @@ class DesktopServerInteractor {
     var serverURL = ""
     
     func combineRequest() {
-        performTextBasedRequestToServer("/combine", method: "POST", body: "encrypted string", callback: {data,res,error in
-            
+        performTextBasedRequestToServer("/combine", method: "POST", body: Database.loadEncryptedData()!, callback: {data,res,error in
+            self.handleServerResponse(String(data: data!, encoding: NSUTF8StringEncoding)!)
         })
     }
     
     func sendPhoneReplaceDesktopRequest() {
-        performTextBasedRequestToServer("/phonetopc", method: "POST", body: "encrypted string", callback: {data,res,error in
-            
+        performTextBasedRequestToServer("/phonetopc", method: "POST", body: Database.loadEncryptedData()!, callback: {data,res,error in
+            self.handleServerResponse(String(data: data!, encoding: NSUTF8StringEncoding)!)
         })
+    }
+    
+    func handleServerResponse(dataStr: String) {
+        print("==server response==")
+        print(dataStr)
+        
+        
     }
     
     func performTextBasedRequestToServer(route: String, method: String, body: String, callback: (NSData?, NSURLResponse?, NSError?) -> Void)
@@ -30,6 +37,7 @@ class DesktopServerInteractor {
         let request:NSMutableURLRequest = NSMutableURLRequest(URL: url!)
         request.HTTPMethod = method
         request.HTTPBody = body.dataUsingEncoding(NSUTF8StringEncoding)
+        request.addValue("text/plain", forHTTPHeaderField: "Content-Type")
         let task = NSURLSession.sharedSession().dataTaskWithRequest(request) {(data, response, error) in
             print("==request==")
             if(data != nil)
